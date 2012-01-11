@@ -1,0 +1,727 @@
+EESchema Schematic File Version 2  date Tue 10 Jan 2012 06:01:42 PM COT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:con-jack
+LIBS:at91sam9
+LIBS:fuse
+LIBS:maxim
+LIBS:vrtc
+LIBS:vddhp
+LIBS:vbus
+LIBS:vbato
+LIBS:vbat
+LIBS:v33sd
+LIBS:v33
+LIBS:v18
+LIBS:usb_minib
+LIBS:usb_micro_ab
+LIBS:usbdf
+LIBS:tzxxx
+LIBS:tps721xx
+LIBS:tm2302n
+LIBS:tm2301n
+LIBS:testpoint
+LIBS:sw_metaldomn
+LIBS:switch
+LIBS:spy0030a
+LIBS:speaker
+LIBS:solderpaste
+LIBS:serial_con
+LIBS:se9016
+LIBS:sdcw2012
+LIBS:scic
+LIBS:rfm12b
+LIBS:rf-24g
+LIBS:pwr_flag
+LIBS:phonejack
+LIBS:p3v56s40etp-g6
+LIBS:npn
+LIBS:mpc17529
+LIBS:microphone
+LIBS:lt3925edcb
+LIBS:kb3436
+LIBS:jz4720_186p
+LIBS:inductorp
+LIBS:inductor
+LIBS:hy27ug088g5m
+LIBS:header_40
+LIBS:header_20x2
+LIBS:header_4x2
+LIBS:header_4
+LIBS:header_3
+LIBS:header_2
+LIBS:header
+LIBS:hd
+LIBS:fpccon24
+LIBS:eup3406
+LIBS:crystal
+LIBS:cpolarized
+LIBS:con4p
+LIBS:col_logo
+LIBS:cc_logo
+LIBS:boot_switch
+LIBS:bl8555-33pra
+LIBS:bl8509-263dnrm
+LIBS:bl8506-30nrm
+LIBS:bat_con
+LIBS:atmega168v
+LIBS:ad8605-6-8
+LIBS:devices_mod
+LIBS:ethernet_phy
+LIBS:mt48lc16m16a2
+LIBS:at45db321d
+LIBS:farnell
+LIBS:AT24C
+LIBS:xilinx-xc3sxxxe_vq100
+LIBS:axis
+LIBS:tps60500
+LIBS:SI1563
+LIBS:lt1963
+LIBS:vga
+LIBS:lcd_2x16_led_backlight
+LIBS:my_dev
+LIBS:display-lcd
+LIBS:con-lumberg
+LIBS:n64s830ha
+LIBS:adc08xxx
+LIBS:micro-philips
+LIBS:atmel89cxxxx
+LIBS:atmel-2005
+LIBS:atmel-1
+LIBS:at91sam9261
+LIBS:atmel-eagle
+LIBS:avr-4
+LIBS:avr-3
+LIBS:avr32
+LIBS:avr-2
+LIBS:avr-1
+LIBS:aurel
+LIBS:atmel_prototype_header
+LIBS:attiny24_44_84
+LIBS:attiny13
+LIBS:at90can128
+LIBS:atmega8
+LIBS:TI_MSP430_v16
+LIBS:sht10_11_15
+LIBS:smd-special
+LIBS:cat22c10
+LIBS:xc9572xl
+LIBS:xc3s
+LIBS:at91sam9g20b-cu
+LIBS:logos
+LIBS:Dispositivos_I2C
+LIBS:mmdt3904
+LIBS:Transil_diode
+LIBS:microsd
+LIBS:usba-plug
+LIBS:usbconn
+LIBS:transistor-npn
+LIBS:rclamp0502b
+LIBS:EEPROM
+LIBS:micron_ddr_512Mb
+LIBS:opendous
+LIBS:ipc-7351-diode
+LIBS:gl850g
+LIBS:110VAC
+LIBS:VREF
+LIBS:PWR
+LIBS:ipc-7351-transistor
+LIBS:usb_a
+LIBS:m25p32
+LIBS:srf2012
+LIBS:IOUT
+LIBS:ref-packages
+LIBS:switch-misc
+LIBS:Zilog-ZNEO-v1_0
+LIBS:mcp130
+LIBS:r_pack2
+LIBS:sdmmc
+LIBS:w_analog
+LIBS:fsusb20
+LIBS:iMX23
+LIBS:PROpendous-cache
+LIBS:Reset
+LIBS:ABM8G
+LIBS:adm3101e
+LIBS:ad7699
+LIBS:ad8627
+LIBS:Carlolib-dev
+LIBS:vasd1-s5-d5--sip
+LIBS:pasives-connectors
+LIBS:micrel
+LIBS:con-cypressindustries
+LIBS:CondorEVA_V1_5-cache
+EELAYER 25  0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 13 16
+Title "CondorBoard_V1"
+Date "10 jan 2012"
+Rev "V1"
+Comp "Uniandes"
+Comment1 "Josnelihurt Rodriguez Barajas"
+Comment2 ""
+Comment3 "Autores:"
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	8250 1300 8200 1300
+Wire Wire Line
+	7500 1350 7450 1350
+Wire Wire Line
+	6050 1400 6000 1400
+Connection ~ 3300 1050
+Wire Wire Line
+	3250 1050 3350 1050
+Wire Wire Line
+	3400 1200 3400 1150
+Connection ~ 7250 2150
+Wire Wire Line
+	7250 2050 7250 2200
+Wire Wire Line
+	7250 2200 6400 2200
+Wire Wire Line
+	7500 2100 8600 2100
+Connection ~ 2250 2200
+Wire Wire Line
+	2600 2200 1700 2200
+Wire Wire Line
+	2600 2200 2600 1900
+Wire Wire Line
+	2450 1050 2450 850 
+Wire Wire Line
+	7750 950  7750 1550
+Wire Wire Line
+	7250 1500 7500 1500
+Wire Wire Line
+	7450 1350 7450 1400
+Wire Wire Line
+	7450 1400 7600 1400
+Wire Wire Line
+	7600 1400 7600 1450
+Wire Wire Line
+	8200 2100 8200 2250
+Wire Wire Line
+	7250 1500 7250 1650
+Wire Wire Line
+	3300 1050 3300 1300
+Wire Wire Line
+	3300 1300 3550 1300
+Wire Wire Line
+	3550 1300 3550 1050
+Wire Wire Line
+	3550 1050 4300 1050
+Wire Wire Line
+	2050 2450 2050 2200
+Wire Wire Line
+	2250 1700 2250 1600
+Wire Wire Line
+	2250 1200 2250 1050
+Wire Wire Line
+	2400 700  2400 850 
+Wire Wire Line
+	1350 2800 1350 2950
+Wire Wire Line
+	1350 1800 1350 1650
+Wire Wire Line
+	1350 1650 1200 1650
+Connection ~ 1850 5450
+Wire Wire Line
+	1850 5400 1850 5450
+Connection ~ 7500 2100
+Connection ~ 8200 2100
+Wire Notes Line
+	4500 1000 4500 950 
+Wire Notes Line
+	4500 950  4300 950 
+Wire Notes Line
+	4300 950  4300 1000
+Connection ~ 3950 1050
+Connection ~ 4100 1050
+Wire Wire Line
+	4800 850  4800 1050
+Wire Wire Line
+	1050 1250 1150 1250
+Connection ~ 1700 1050
+Wire Wire Line
+	1700 1450 1700 1050
+Wire Wire Line
+	1650 5450 2450 5450
+Connection ~ 2450 1050
+Wire Wire Line
+	1050 1150 1150 1150
+Wire Wire Line
+	1150 1150 1150 1350
+Connection ~ 1150 1250
+Wire Wire Line
+	4100 1250 4100 1050
+Wire Wire Line
+	4100 1650 4100 1900
+Wire Wire Line
+	4800 1050 4500 1050
+Wire Notes Line
+	2000 5400 2000 5050
+Wire Notes Line
+	2000 5400 850  5400
+Wire Notes Line
+	850  5400 850  5050
+Wire Notes Line
+	850  5050 2000 5050
+Connection ~ 7250 2100
+Wire Wire Line
+	1650 4900 1850 4900
+Wire Wire Line
+	1350 2300 1350 2400
+Wire Wire Line
+	1300 850  1150 850 
+Wire Wire Line
+	1150 850  1150 1050
+Connection ~ 1150 1050
+Wire Wire Line
+	2300 750  2300 850 
+Wire Wire Line
+	2300 850  2450 850 
+Connection ~ 2400 850 
+Wire Wire Line
+	1700 1050 1050 1050
+Connection ~ 2050 2200
+Wire Wire Line
+	1700 2200 1700 1850
+Wire Wire Line
+	7500 1500 7500 1650
+Connection ~ 7500 1500
+Wire Wire Line
+	7350 1500 7350 1350
+Connection ~ 7350 1500
+Wire Wire Line
+	7750 1550 7500 1550
+Connection ~ 7500 1550
+Wire Wire Line
+	6850 1150 6850 1350
+Wire Wire Line
+	2450 5450 2450 2600
+Wire Wire Line
+	2600 1050 2600 1500
+Connection ~ 2600 1050
+Wire Wire Line
+	7250 2150 7500 2150
+Wire Wire Line
+	7500 2150 7500 2050
+Wire Wire Line
+	8000 1450 7850 1450
+Wire Wire Line
+	8000 1450 8000 1300
+Wire Wire Line
+	8650 1200 8600 1200
+Wire Wire Line
+	8600 1200 8600 1450
+Wire Wire Line
+	8600 1450 8100 1450
+Wire Wire Line
+	8100 1450 8100 1300
+Wire Wire Line
+	8600 2100 8600 1850
+Wire Wire Line
+	8200 1300 8200 1400
+Wire Wire Line
+	7850 1450 7850 1150
+Wire Wire Line
+	5650 1250 5650 1550
+Wire Wire Line
+	6000 1400 6000 1500
+Wire Wire Line
+	6400 2200 6400 1950
+Wire Wire Line
+	5900 1400 5900 1550
+Wire Wire Line
+	5900 1550 6400 1550
+Wire Wire Line
+	6400 1550 6400 1300
+Wire Wire Line
+	6400 1300 6450 1300
+Wire Wire Line
+	5800 1550 5800 1400
+Wire Wire Line
+	5800 1550 5650 1550
+Wire Wire Line
+	2250 1050 3150 1050
+Wire Wire Line
+	3400 1150 3450 1150
+Wire Wire Line
+	3450 1150 3450 1050
+Wire Wire Line
+	5800 1400 5750 1400
+Wire Wire Line
+	5950 1400 5850 1400
+Connection ~ 5900 1400
+Wire Wire Line
+	6850 1350 7200 1350
+Wire Wire Line
+	7400 1350 7300 1350
+Connection ~ 7350 1350
+Wire Wire Line
+	8000 1300 7950 1300
+Wire Wire Line
+	8150 1300 8050 1300
+Connection ~ 8100 1300
+Text Label 3750 1050 0    60   ~ 0
+PRE3.3
+$Comp
+L AP1122 U1403
+U 1 1 4EAB6214
+P 5900 1150
+F 0 "U1403" H 6000 1500 60  0000 C CNN
+F 1 "AP1122_1.8" H 5800 1400 60  0000 C CNN
+F 4 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AP1122EGDITR-ND" H 5900 1150 60  0001 C CNN "Buy"
+	1    5900 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1401
+U 1 1 4EAB6212
+P 6400 1750
+F 0 "C1401" H 6450 1850 50  0000 L CNN
+F 1 "10uF" H 6450 1650 50  0000 L CNN
+	1    6400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR059
+U 1 1 4EAB6211
+P 6000 1500
+F 0 "#PWR059" H 6000 1500 30  0001 C CNN
+F 1 "GND" H 6000 1430 30  0001 C CNN
+	1    6000 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR060
+U 1 1 4EAB6210
+P 5650 1250
+F 0 "#PWR060" H 5650 1340 20  0001 C CNN
+F 1 "+5V" H 5650 1340 30  0000 C CNN
+	1    5650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.8V #PWR061
+U 1 1 4DF92B58
+P 6450 1300
+F 0 "#PWR061" H 6450 1440 20  0001 C CNN
+F 1 "+1.8V" H 6450 1410 30  0000 C CNN
+	1    6450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR062
+U 1 1 4EAB61F9
+P 7850 1150
+F 0 "#PWR062" H 7850 1240 20  0001 C CNN
+F 1 "+5V" H 7850 1240 30  0000 C CNN
+	1    7850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR063
+U 1 1 4EAB60AE
+P 8200 1400
+F 0 "#PWR063" H 8200 1400 30  0001 C CNN
+F 1 "GND" H 8200 1330 30  0001 C CNN
+	1    8200 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C1604
+U 1 1 4E00F175
+P 8600 1650
+F 0 "C1604" H 8650 1750 50  0000 L CNN
+F 1 "10uF" H 8650 1550 50  0000 L CNN
+	1    8600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +1.2V #PWR064
+U 1 1 4E00DE2E
+P 8650 1200
+F 0 "#PWR064" H 8650 1340 20  0001 C CNN
+F 1 "+1.2V" H 8650 1310 30  0000 C CNN
+	1    8650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP1122 U1601
+U 1 1 4E00DD41
+P 8100 1050
+F 0 "U1601" H 8200 1400 60  0000 C CNN
+F 1 "AP1122_1.2" H 8000 1300 60  0000 C CNN
+F 4 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AP1122EGDITR-ND" H 8100 1050 60  0001 C CNN "Buy"
+	1    8100 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR065
+U 1 1 4EAB61BB
+P 6850 1150
+F 0 "#PWR065" H 6850 1240 20  0001 C CNN
+F 1 "+5V" H 6850 1240 30  0000 C CNN
+	1    6850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR066
+U 1 1 4EAB60B3
+P 7600 1450
+F 0 "#PWR066" H 7600 1450 30  0001 C CNN
+F 1 "GND" H 7600 1380 30  0001 C CNN
+	1    7600 1450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AP1122 U1402
+U 1 1 4EAB5F97
+P 7350 1100
+F 0 "U1402" H 7500 1350 60  0000 C CNN
+F 1 "AP1122_2.5" H 7400 1450 60  0000 C CNN
+F 4 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AP1122EGDITR-ND" H 7350 1100 60  0001 C CNN "Buy"
+	1    7350 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AP1122 U1401
+U 1 1 4EAB5F92
+P 3300 800
+F 0 "U1401" H 3450 1050 60  0000 C CNN
+F 1 "AP1122_3.3" H 3250 1150 60  0000 C CNN
+F 4 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AP1122EGDITR-ND" H 3300 800 60  0001 C CNN "Buy"
+	1    3300 800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R1401
+U 1 1 4EAB5DF2
+P 2250 1950
+F 0 "R1401" V 2330 1950 50  0000 C CNN
+F 1 "300R" V 2250 1950 50  0000 C CNN
+	1    2250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1401
+U 1 1 4EAB5DEC
+P 2250 1400
+F 0 "D1401" H 2250 1500 50  0000 C CNN
+F 1 "PWRLED_CON" H 2250 1300 50  0000 C CNN
+	1    2250 1400
+	0    -1   1    0   
+$EndComp
+$Comp
+L SWITCH_INV SW1401
+U 1 1 4EAB572F
+P 1800 850
+F 0 "SW1401" H 1600 1000 50  0000 C CNN
+F 1 "SWITCH_INV" H 1650 700 50  0000 C CNN
+	1    1800 850 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1650 4900 0    60   Input ~ 0
+VDDBU
+$Comp
+L +5V #PWR067
+U 1 1 4E00C0FF
+P 2400 700
+F 0 "#PWR067" H 2400 790 20  0001 C CNN
+F 1 "+5V" H 2400 790 30  0000 C CNN
+	1    2400 700 
+	1    0    0    -1  
+$EndComp
+Text Label 1250 1050 0    60   ~ 0
+PRE_5
+Text Notes 900  5250 0    60   ~ 0
+NOT POPULATED\n
+$Comp
+L R R1607
+U 1 1 4E0A4920
+P 1850 5150
+F 0 "R1607" V 1930 5150 50  0000 C CNN
+F 1 "100K" V 1850 5150 50  0000 C CNN
+	1    1850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1605
+U 1 1 4E00ED88
+P 7500 1850
+F 0 "C1605" H 7550 1950 50  0000 L CNN
+F 1 "10uF" H 7550 1750 50  0000 L CNN
+	1    7500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1603
+U 1 1 4E00ED7A
+P 2600 1700
+F 0 "C1603" H 2650 1800 50  0000 L CNN
+F 1 "330uF" H 2650 1600 50  0000 L CNN
+	1    2600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +2.5V #PWR068
+U 1 1 4E00ED55
+P 7750 950
+F 0 "#PWR068" H 7750 900 20  0001 C CNN
+F 1 "+2.5V" H 7750 1050 30  0000 C CNN
+	1    7750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR069
+U 1 1 4E00ED45
+P 8200 2250
+F 0 "#PWR069" H 8200 2250 30  0001 C CNN
+F 1 "GND" H 8200 2180 30  0001 C CNN
+	1    8200 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR070
+U 1 1 4DF92B34
+P 4800 850
+F 0 "#PWR070" H 4800 810 30  0001 C CNN
+F 1 "+3.3V" H 4800 960 30  0000 C CNN
+	1    4800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR071
+U 1 1 4DF92B07
+P 4100 1900
+F 0 "#PWR071" H 4100 1900 30  0001 C CNN
+F 1 "GND" H 4100 1830 30  0001 C CNN
+	1    4100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1602
+U 1 1 4DF92AF1
+P 4100 1450
+F 0 "C1602" H 4150 1250 50  0000 L CNN
+F 1 "10uF" H 4150 1350 50  0000 L CNN
+	1    4100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1601
+U 1 1 4DF92AD7
+P 4400 1400
+F 0 "P1601" V 4350 1400 40  0000 C CNN
+F 1 "CONN_2" V 4450 1400 40  0000 C CNN
+	1    4400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR072
+U 1 1 4DF92AB9
+P 1150 1350
+F 0 "#PWR072" H 1150 1350 30  0001 C CNN
+F 1 "GND" H 1150 1280 30  0001 C CNN
+	1    1150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK-PLUG0 J1601
+U 1 1 4DF92AB0
+P 850 1150
+F 0 "J1601" H 550 1350 50  0000 L BNN
+F 1 "JACK-PLUG0" H 550 950 50  0000 L BNN
+F 2 "con-jack-SPC4077" H 850 1300 50  0001 C CNN
+	1    850  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1601
+U 1 1 4DF929BF
+P 1700 1650
+F 0 "C1601" H 1750 1750 50  0000 L CNN
+F 1 "330uF" H 1750 1550 50  0000 L CNN
+	1    1700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR073
+U 1 1 4DF929B1
+P 2050 2450
+F 0 "#PWR073" H 2050 2450 30  0001 C CNN
+F 1 "GND" H 2050 2380 30  0001 C CNN
+	1    2050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR074
+U 1 1 4DF9299E
+P 3400 1200
+F 0 "#PWR074" H 3400 1200 30  0001 C CNN
+F 1 "GND" H 3400 1130 30  0001 C CNN
+	1    3400 1200
+	1    0    0    -1  
+$EndComp
+Text HLabel 1650 5450 0    60   Input ~ 0
+SHDN
+Text HLabel 1200 1650 0    60   Input ~ 0
+PWR_LED
+$Comp
+L GND #PWR075
+U 1 1 4DF9133A
+P 1350 2950
+F 0 "#PWR075" H 1350 2950 30  0001 C CNN
+F 1 "GND" H 1350 2880 30  0001 C CNN
+	1    1350 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D1601
+U 1 1 4DF911E2
+P 1350 2600
+F 0 "D1601" H 1350 2700 50  0000 C CNN
+F 1 "PWRLED" H 1350 2500 50  0000 C CNN
+	1    1350 2600
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R1602
+U 1 1 4DF911D2
+P 1350 2050
+F 0 "R1602" V 1430 2050 50  0000 C CNN
+F 1 "330R" V 1350 2050 50  0000 C CNN
+	1    1350 2050
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
