@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 10 Jan 2012 06:01:42 PM COT
+EESchema Schematic File Version 2  date Thu 19 Jan 2012 04:02:15 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -105,31 +105,9 @@ LIBS:tps60500
 LIBS:SI1563
 LIBS:lt1963
 LIBS:vga
-LIBS:lcd_2x16_led_backlight
 LIBS:my_dev
-LIBS:display-lcd
-LIBS:con-lumberg
 LIBS:n64s830ha
 LIBS:adc08xxx
-LIBS:micro-philips
-LIBS:atmel89cxxxx
-LIBS:atmel-2005
-LIBS:atmel-1
-LIBS:at91sam9261
-LIBS:atmel-eagle
-LIBS:avr-4
-LIBS:avr-3
-LIBS:avr32
-LIBS:avr-2
-LIBS:avr-1
-LIBS:aurel
-LIBS:atmel_prototype_header
-LIBS:attiny24_44_84
-LIBS:attiny13
-LIBS:at90can128
-LIBS:atmega8
-LIBS:TI_MSP430_v16
-LIBS:sht10_11_15
 LIBS:smd-special
 LIBS:cat22c10
 LIBS:xc9572xl
@@ -175,7 +153,6 @@ LIBS:ad8627
 LIBS:Carlolib-dev
 LIBS:vasd1-s5-d5--sip
 LIBS:pasives-connectors
-LIBS:micrel
 LIBS:con-cypressindustries
 LIBS:CondorEVA_V1_5-cache
 EELAYER 25  0
@@ -184,7 +161,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 9 16
 Title "CondorBoard_V1"
-Date "10 jan 2012"
+Date "19 jan 2012"
 Rev "V1"
 Comp "Uniandes"
 Comment1 "Josnelihurt Rodriguez Barajas"
@@ -311,10 +288,10 @@ Wire Notes Line
 Wire Notes Line
 	3475 5650 3475 1450
 $Comp
-L GND #PWR040
+L GND #PWR041
 U 1 1 4EA0A75D
 P 4650 4525
-F 0 "#PWR040" H 4650 4525 30  0001 C CNN
+F 0 "#PWR041" H 4650 4525 30  0001 C CNN
 F 1 "GND" H 4650 4455 30  0001 C CNN
 	1    4650 4525
 	1    0    0    -1  
@@ -335,10 +312,10 @@ F 1 "MICROSD" H 5500 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L GND #PWR042
 U 1 1 4DF6BF92
 P 6550 5300
-F 0 "#PWR041" H 6550 5300 30  0001 C CNN
+F 0 "#PWR042" H 6550 5300 30  0001 C CNN
 F 1 "GND" H 6550 5230 30  0001 C CNN
 	1    6550 5300
 	1    0    0    -1  
@@ -373,19 +350,19 @@ F 1 "10K" V 4950 4150 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR042
+L +3.3V #PWR043
 U 1 1 4DFA9653
 P 4950 3800
-F 0 "#PWR042" H 4950 3760 30  0001 C CNN
+F 0 "#PWR043" H 4950 3760 30  0001 C CNN
 F 1 "+3.3V" H 4950 3910 30  0000 C CNN
 	1    4950 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR043
+L +3.3V #PWR044
 U 1 1 4DFA961C
 P 4350 1900
-F 0 "#PWR043" H 4350 1860 30  0001 C CNN
+F 0 "#PWR044" H 4350 1860 30  0001 C CNN
 F 1 "+3.3V" H 4350 2010 30  0000 C CNN
 	1    4350 1900
 	1    0    0    -1  
@@ -463,28 +440,28 @@ CS
 Text Notes 6275 3100 0    60   ~ 0
 WRITE PROTECT\nNORMALY OPEN
 $Comp
-L GND #PWR044
+L GND #PWR045
 U 1 1 4DF6B548
 P 6200 3250
-F 0 "#PWR044" H 6200 3250 30  0001 C CNN
+F 0 "#PWR045" H 6200 3250 30  0001 C CNN
 F 1 "GND" H 6200 3180 30  0001 C CNN
 	1    6200 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR045
+L +3.3V #PWR046
 U 1 1 4DF6B510
 P 7000 2750
-F 0 "#PWR045" H 7000 2710 30  0001 C CNN
+F 0 "#PWR046" H 7000 2710 30  0001 C CNN
 F 1 "+3.3V" H 7000 2860 30  0000 C CNN
 	1    7000 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR046
+L GND #PWR047
 U 1 1 4DF6B505
 P 6950 2350
-F 0 "#PWR046" H 6950 2350 30  0001 C CNN
+F 0 "#PWR047" H 6950 2350 30  0001 C CNN
 F 1 "GND" H 6950 2280 30  0001 C CNN
 	1    6950 2350
 	1    0    0    -1  

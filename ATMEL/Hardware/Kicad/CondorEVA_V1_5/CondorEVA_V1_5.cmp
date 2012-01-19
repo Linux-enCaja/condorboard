@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = Tue 10 Jan 2012 06:18:18 PM COT
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = Thu 19 Jan 2012 10:36:30 AM COT
 
 BeginCmp
 TimeStamp = /4E094558/4E0A482A;
@@ -1418,7 +1418,7 @@ BeginCmp
 TimeStamp = /4E094558/4E0B89E7;
 Reference = SW502;
 ValeurCmp = SW_RESET;
-IdModule  = smd-special-SMS-001;
+IdModule  = SW_PUSH_SMALL;
 EndCmp
 
 BeginCmp

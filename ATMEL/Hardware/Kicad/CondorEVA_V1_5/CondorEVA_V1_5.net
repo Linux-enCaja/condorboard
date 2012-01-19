@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 10 Jan 2012 06:19:32 PM COT
+# EESchema Netlist Version 1.1 created  Thu 19 Jan 2012 04:02:20 PM COT
 (
  ( /4EAB4C08 $noname  P102 CASE {Lib=TST}
   (    1 GND )
@@ -17,18 +17,18 @@
   (    2 /ucAUX/WAKEUP )
  )
  ( /4E239092 $noname  R101 100R {Lib=R}
-  (    1 /PWR/SHDN )
+  (    1 /cpu/SHDN )
   (    2 /ucAUX/HALT )
  )
  ( /4EA618E6/4EB1DF92 $noname  P202 CONN_7X2 {Lib=CONN_7X2}
   (    1 +3.3V )
-  (    2 /FPGA/IO21 )
+  (    2 /FPGA_IO/IO21 )
   (    3 /FPGA_IO/IO22 )
-  (    4 /FPGA/IO23 )
-  (    5 /FPGA/IO24 )
-  (    6 /FPGA/IO25 )
-  (    7 /FPGA_IO/IO26 )
-  (    8 /FPGA_IO/IO27 )
+  (    4 /FPGA_IO/IO23 )
+  (    5 /FPGA_IO/IO24 )
+  (    6 /FPGA_IO/IO25 )
+  (    7 /FPGA/IO26 )
+  (    8 /FPGA/IO27 )
   (    9 /FPGA_IO/IO28 )
   (   10 /FPGA_IO/IO29 )
   (   11 /RS232/DFPGA_TX )
@@ -39,67 +39,67 @@
  ( /4EA618E6/4EAC3596 $noname  P201 CONN_12X2 {Lib=CONN_12X2}
   (    1 +3.3V )
   (    2 +3.3V )
-  (    3 /FPGA/IO0 )
+  (    3 /FPGA_IO/IO0 )
   (    4 /FPGA_IO/IO1 )
   (    5 /FPGA_IO/IO2 )
   (    6 /FPGA_IO/IO3 )
   (    7 /FPGA_IO/IO4 )
-  (    8 /FPGA/IO5 )
-  (    9 /FPGA/IO6 )
+  (    8 /FPGA_IO/IO5 )
+  (    9 /FPGA_IO/IO6 )
   (   10 /FPGA_IO/IO7 )
   (   11 /FPGA/IO8 )
-  (   12 /FPGA/IO9 )
-  (   13 /FPGA/IO10 )
-  (   14 /FPGA/IO11 )
+  (   12 /FPGA_IO/IO9 )
+  (   13 /FPGA_IO/IO10 )
+  (   14 /FPGA_IO/IO11 )
   (   15 /FPGA/IO13 )
   (   16 /FPGA/IO12 )
-  (   17 /FPGA/IO14 )
-  (   18 /FPGA_IO/IO15 )
-  (   19 /FPGA/IO16 )
+  (   17 /FPGA_IO/IO14 )
+  (   18 /FPGA/IO15 )
+  (   19 /FPGA_IO/IO16 )
   (   20 /FPGA_IO/IO17 )
   (   21 /FPGA_IO/IO18 )
-  (   22 /FPGA_IO/IO19 )
-  (   23 /FPGA/IO20 )
+  (   22 /FPGA/IO19 )
+  (   23 /FPGA_IO/IO20 )
   (   24 GND )
  )
  ( /4EA618C3/4EAC2152 $noname  P304 CONN_9X2 {Lib=CONN_9X2}
   (    1 +3.3V )
   (    2 /cpu/PC16 )
   (    3 /CPUIO/PC17 )
-  (    4 /cpu/PC18 )
+  (    4 /CPUIO/PC18 )
   (    5 /CPUIO/PC19 )
-  (    6 /cpu/PC20 )
+  (    6 /CPUIO/PC20 )
   (    7 /cpu/PC21 )
   (    8 /CPUIO/PC22 )
-  (    9 /cpu/PC23 )
+  (    9 /CPUIO/PC23 )
   (   10 /CPUIO/PC24 )
   (   11 /cpu/PC25 )
-  (   12 /cpu/PC26 )
+  (   12 /CPUIO/PC26 )
   (   13 /cpu/PC27 )
-  (   14 /cpu/PC28 )
-  (   15 /CPUIO/PC29 )
+  (   14 /CPUIO/PC28 )
+  (   15 /cpu/PC29 )
   (   16 /CPUIO/PC30 )
-  (   17 /CPUIO/PC31 )
+  (   17 /cpu/PC31 )
   (   18 GND )
  )
  ( /4EA618C3/4EAB0E6B $noname  P404 CONN_10X2 {Lib=CONN_10X2}
   (    1 /cpu/PB31 )
   (    2 GND )
   (    3 /CPUIO/PB29 )
-  (    4 /cpu/PB30 )
+  (    4 /CPUIO/PB30 )
   (    5 /CPUIO/PB27 )
   (    6 /CPUIO/PB28 )
-  (    7 /CPUIO/PB25 )
+  (    7 /cpu/PB25 )
   (    8 /cpu/PB26 )
-  (    9 /CPUIO/PB23 )
-  (   10 /CPUIO/PB24 )
-  (   11 /CPUIO/PB21 )
-  (   12 /CPUIO/PB22 )
+  (    9 /cpu/PB23 )
+  (   10 /cpu/PB24 )
+  (   11 /cpu/PB21 )
+  (   12 /cpu/PB22 )
   (   13 /CPUIO/PB11 )
-  (   14 /CPUIO/PB20 )
+  (   14 /cpu/PB20 )
   (   15 /CPUIO/AVDD )
-  (   16 /cpu/PB10 )
-  (   17 /CPUIO/PC1 )
+  (   16 /CPUIO/PB10 )
+  (   17 /cpu/PC1 )
   (   18 /cpu/PC0 )
   (   19 +3.3V )
   (   20 /cpu/ADVREF )
@@ -107,15 +107,15 @@
  ( /4EA618C3/4EAB0950 $noname  P403 CONN_6X2 {Lib=CONN_6X2}
   (    1 +3.3V )
   (    2 /CPUIO/PB0 )
-  (    3 /CPUIO/PB1 )
-  (    4 /cpu/PB2 )
-  (    5 /CPUIO/PB3 )
-  (    6 /CPUIO/PB8 )
+  (    3 /cpu/PB1 )
+  (    4 /CPUIO/PB2 )
+  (    5 /cpu/PB3 )
+  (    6 /cpu/PB8 )
   (    7 /cpu/PB9 )
-  (    8 /cpu/PB16 )
+  (    8 /CPUIO/PB16 )
   (    9 /CPUIO/PB17 )
   (   10 /CPUIO/PB18 )
-  (   11 /CPUIO/PB19 )
+  (   11 /cpu/PB19 )
   (   12 GND )
  )
  ( /4E094558/4F0CC345 $noname  K401 CONN_3 {Lib=CONN_3}
@@ -129,7 +129,7 @@
  )
  ( /4E094558/4E0B89E7 $noname  SW502 SW_RESET {Lib=SW_PUSH}
   (    1 GND )
-  (    2 /BAT/NRST )
+  (    2 /cpu/NRST )
  )
  ( /4E094558/4EB1832F $noname  CON501 BAT_CON {Lib=CONN_2}
   (    1 GND )
@@ -150,7 +150,7 @@
  )
  ( /4E094558/4E0B89F2 $noname  R503 1K {Lib=R}
   (    1 +3.3V )
-  (    2 /BAT/NRST )
+  (    2 /cpu/NRST )
  )
  ( /4E094558/4E0A48AD $noname  R504 100K {Lib=R}
   (    1 VDDBU )
@@ -287,25 +287,25 @@
   (    7 /cpu/ETHERNET/CRS )
   (    8 /cpu/ETHERNET/COL )
   (    9 /CPUIO/PB0 )
-  (   10 /CPUIO/PB1 )
-  (   11 /cpu/PB2 )
-  (   12 /CPUIO/PB3 )
+  (   10 /cpu/PB1 )
+  (   11 /CPUIO/PB2 )
+  (   12 /cpu/PB3 )
   (   13 +3.3V )
   (   14 GND )
   (   15 /RS232/TXD0 )
   (   16 /RS232/RXD0 )
   (   17 /RS232/TXD1 )
   (   18 /RS232/RXD1 )
-  (   19 /CPUIO/PB8 )
+  (   19 /cpu/PB8 )
   (   20 /cpu/PB9 )
   (   21 /RS232/DRXD )
   (   22 /RS232/DTXD )
-  (   23 /cpu/PB16 )
+  (   23 /CPUIO/PB16 )
   (   24 +3.3V )
   (   25 GND )
   (   26 /CPUIO/PB17 )
   (   27 /CPUIO/PB18 )
-  (   28 /CPUIO/PB19 )
+  (   28 /cpu/PB19 )
   (   29 ? )
   (   30 ? )
   (   31 ? )
@@ -313,7 +313,7 @@
   (   33 GND )
   (   34 ? )
   (   35 ? )
-  (   36 /BAT/NRST )
+  (   36 /cpu/NRST )
   (   37 ? )
   (   38 /cpu/VDDCORE )
   (   39 GND )
@@ -326,7 +326,7 @@
   (   46 /cpu/CLK/XIN32 )
   (   47 VDDBU )
   (   48 /BAT/WAKEUP )
-  (   49 /PWR/SHDN )
+  (   49 /cpu/SHDN )
   (   50 /cpu/USB/HDMA )
   (   51 /cpu/USB/HDPA )
   (   52 +3.3V )
@@ -365,17 +365,17 @@
   (   85 ? )
   (   86 /cpu/A11 )
   (   87 /cpu/A10 )
-  (   88 /cpu/A9 )
-  (   89 /cpu/A8 )
+  (   88 /FPGA/A9 )
+  (   89 /FPGA/A8 )
   (   90 /cpu/VDDIOM )
   (   91 GND )
-  (   92 /FPGA/A7 )
+  (   92 /cpu/A7 )
   (   93 /FPGA/A6 )
-  (   94 /FPGA/A5 )
+  (   94 /cpu/A5 )
   (   95 /cpu/A4 )
-  (   96 /cpu/A3 )
+  (   96 /FPGA/A3 )
   (   97 /FPGA/A2 )
-  (   98 /cpu/A1 )
+  (   98 /FPGA/A1 )
   (   99 /cpu/A0 )
   (  100 /cpu/SDRAM/SDA10 )
   (  101 ? )
@@ -384,12 +384,12 @@
   (  104 /cpu/SDRAM/CAS )
   (  105 /cpu/SDRAM/RAS )
   (  106 /cpu/D0 )
-  (  107 /FPGA/D1 )
+  (  107 /cpu/D1 )
   (  108 /FPGA/D2 )
   (  109 /FPGA/D3 )
-  (  110 /cpu/D4 )
-  (  111 /FPGA/D5 )
-  (  112 /cpu/D6 )
+  (  110 /FPGA/D4 )
+  (  111 /cpu/D5 )
+  (  112 /FPGA/D6 )
   (  113 GND )
   (  114 /cpu/VDDIOM )
   (  115 /cpu/SDRAM/SDCK )
@@ -407,22 +407,22 @@
   (  127 /FPGA/C_FPGA_TMS )
   (  128 /cpu/PC16 )
   (  129 /CPUIO/PC17 )
-  (  130 /cpu/PC18 )
+  (  130 /CPUIO/PC18 )
   (  131 /CPUIO/PC19 )
   (  132 /cpu/VDDIOM )
   (  133 GND )
-  (  134 /cpu/PC20 )
+  (  134 /CPUIO/PC20 )
   (  135 /cpu/PC21 )
   (  136 /CPUIO/PC22 )
-  (  137 /cpu/PC23 )
+  (  137 /CPUIO/PC23 )
   (  138 /CPUIO/PC24 )
   (  139 /cpu/PC25 )
-  (  140 /cpu/PC26 )
+  (  140 /CPUIO/PC26 )
   (  141 /cpu/PC27 )
-  (  142 /cpu/PC28 )
-  (  143 /CPUIO/PC29 )
+  (  142 /CPUIO/PC28 )
+  (  143 /cpu/PC29 )
   (  144 /CPUIO/PC30 )
-  (  145 /CPUIO/PC31 )
+  (  145 /cpu/PC31 )
   (  146 GND )
   (  147 /cpu/VDDCORE )
   (  148 /cpu/CLK/VDDPLL )
@@ -436,16 +436,16 @@
   (  156 /cpu/GNDANA )
   (  157 /cpu/ADVREF )
   (  158 /cpu/PC0 )
-  (  159 /CPUIO/PC1 )
+  (  159 /cpu/PC1 )
   (  160 /CPUIO/AVDD )
-  (  161 /cpu/PB10 )
+  (  161 /CPUIO/PB10 )
   (  162 /CPUIO/PB11 )
-  (  163 /CPUIO/PB20 )
-  (  164 /CPUIO/PB21 )
-  (  165 /CPUIO/PB22 )
-  (  166 /CPUIO/PB23 )
-  (  167 /CPUIO/PB24 )
-  (  168 /CPUIO/PB25 )
+  (  163 /cpu/PB20 )
+  (  164 /cpu/PB21 )
+  (  165 /cpu/PB22 )
+  (  166 /cpu/PB23 )
+  (  167 /cpu/PB24 )
+  (  168 /cpu/PB25 )
   (  169 /cpu/VDDIOP1 )
   (  170 GND )
   (  171 /cpu/PB26 )
@@ -454,7 +454,7 @@
   (  174 /cpu/VDDCORE )
   (  175 /CPUIO/PB28 )
   (  176 /CPUIO/PB29 )
-  (  177 /cpu/PB30 )
+  (  177 /CPUIO/PB30 )
   (  178 /cpu/PB31 )
   (  179 /cpu/Flash/DAT0 )
   (  180 /cpu/Flash/CMD )
@@ -608,20 +608,20 @@
   (    2 GND )
  )
  ( /4E9D76FD/4EA60776/4E0A3BC6 $noname  C807 10nF {Lib=C}
-  (    1 N-000215 )
+  (    1 N-000214 )
   (    2 GND )
  )
  ( /4E9D76FD/4EA60776/4E0A3BBF $noname  R804 1K {Lib=R}
   (    1 /cpu/CLK/PLLRCA )
-  (    2 N-000215 )
+  (    2 N-000214 )
  )
  ( /4E9D76FD/4EA60776/4E0A3BB0 $noname  R803 10K {Lib=R}
   (    1 /cpu/CLK/OSCSEL )
-  (    2 N-000214 )
+  (    2 N-000213 )
  )
  ( /4E9D76FD/4EA60776/4DE3E961 $noname  K801 CONN_3 {Lib=CONN_3}
   (    1 GND )
-  (    2 N-000214 )
+  (    2 N-000213 )
   (    3 VDDBU )
  )
  ( /4E9D76FD/4EA60776/4DE3AEE9 $noname  C804 10pF {Lib=C}
@@ -633,35 +633,35 @@
   (    2 GND )
  )
  ( /4E9D76FD/4EA60776/4DE3AEE2 $noname  C802 10pF {Lib=C}
-  (    1 N-000217 )
+  (    1 N-000216 )
   (    2 GND )
  )
  ( /4E9D76FD/4EA60776/4DE3AEDD $noname  C801 10pF {Lib=C}
-  (    1 N-000216 )
+  (    1 N-000215 )
   (    2 GND )
  )
  ( /4E9D76FD/4EA60776/4DE3AECB $noname  R802 0R {Lib=R}
   (    1 /cpu/CLK/XIN )
-  (    2 N-000217 )
+  (    2 N-000216 )
  )
  ( /4E9D76FD/4EA60776/4DE3AEC8 $noname  R801 0R {Lib=R}
   (    1 /cpu/CLK/XOUT )
-  (    2 N-000216 )
+  (    2 N-000215 )
  )
  ( /4E9D76FD/4EA60776/4DE3AEB2 $noname  X802 32.768KHz {Lib=CRYSTAL}
   (    1 /cpu/CLK/XOUT32 )
   (    2 /cpu/CLK/XIN32 )
  )
  ( /4E9D76FD/4EA60776/4DE3AEAC $noname  X801 18.432MHz {Lib=CRYSTAL}
-  (    1 N-000216 )
-  (    2 N-000217 )
+  (    1 N-000215 )
+  (    2 N-000216 )
  )
  ( /4E9D76FD/4DD30BE8/4EAB47BF con-cypressindustries-32005-201  X901 MINI-USB-32005-201 {Lib=MINI-USB-32005-201}
-  (    1 N-000181 )
+  (    1 N-000184 )
   (    2 /cpu/USB/SAM-BA_D- )
   (    3 /cpu/USB/SAM-BA_D+ )
   (    4 GND )
-  (    5 ? )
+  (    5 GND )
   (   M1 /cpu/USB/USB_SHIELD )
   (   M2 /cpu/USB/USB_SHIELD )
   (   M3 /cpu/USB/USB_SHIELD )
@@ -677,8 +677,8 @@
  )
  ( /4E9D76FD/4DD30BE8/4DE929E3 $noname  J901 USB_2 {Lib=USB_2}
   (    1 /cpu/USB/USB_H_VCC )
-  (    2 N-000183 )
-  (    3 N-000184 )
+  (    2 N-000185 )
+  (    3 N-000182 )
   (    4 GND )
  )
  ( /4E9D76FD/4DD30BE8/4DE925C3 $noname  C904 33pF {Lib=C}
@@ -686,15 +686,15 @@
   (    2 /cpu/USB/SAM-BA_D+ )
  )
  ( /4E9D76FD/4DD30BE8/4DE92577 $noname  R907 15k {Lib=R}
-  (    1 N-000181 )
-  (    2 N-000182 )
+  (    1 N-000184 )
+  (    2 N-000181 )
  )
  ( /4E9D76FD/4DD30BE8/4DE92569 $noname  R905 22k {Lib=R}
-  (    1 N-000182 )
+  (    1 N-000181 )
   (    2 GND )
  )
  ( /4E9D76FD/4DD30BE8/4DE92563 $noname  R908 0R {Lib=R}
-  (    1 N-000182 )
+  (    1 N-000181 )
   (    2 /cpu/USB/USBCNX )
  )
  ( /4E9D76FD/4DD30BE8/4DE92548 $noname  R906 1.5k {Lib=R}
@@ -703,11 +703,11 @@
  )
  ( /4E9D76FD/4DD30BE8/4DE9249E $noname  R903 15k {Lib=R}
   (    1 GND )
-  (    2 N-000184 )
+  (    2 N-000182 )
  )
  ( /4E9D76FD/4DD30BE8/4DE92482 $noname  R904 15k {Lib=R}
   (    1 GND )
-  (    2 N-000183 )
+  (    2 N-000185 )
  )
  ( /4E9D76FD/4DD30BE8/4DE40AD5 $noname  C907 15pF {Lib=C}
   (    1 /cpu/USB/DDM )
@@ -726,7 +726,7 @@
   (    2 /cpu/USB/SAM-BA_D+ )
  )
  ( /4E9D76FD/4DD30BE8/4DE409F8 $noname  C905 100nF {Lib=C}
-  (    1 N-000181 )
+  (    1 N-000184 )
   (    2 GND )
  )
  ( /4E9D76FD/4DD30BE8/4DE40889 $noname  C903 100nF {Lib=C}
@@ -734,20 +734,20 @@
   (    2 GND )
  )
  ( /4E9D76FD/4DD30BE8/4DE4084C $noname  C901 47pF {Lib=C}
-  (    1 N-000184 )
+  (    1 N-000182 )
   (    2 GND )
  )
  ( /4E9D76FD/4DD30BE8/4DE4084B $noname  C902 47pF {Lib=C}
-  (    1 N-000183 )
+  (    1 N-000185 )
   (    2 GND )
  )
  ( /4E9D76FD/4DD30BE8/4DE407AB $noname  R902 39R {Lib=R}
   (    1 /cpu/USB/HDPA )
-  (    2 N-000184 )
+  (    2 N-000182 )
  )
  ( /4E9D76FD/4DD30BE8/4DE4079E $noname  R901 39R {Lib=R}
   (    1 /cpu/USB/HDMA )
-  (    2 N-000183 )
+  (    2 N-000185 )
  )
  ( /4E9D76FD/4DF69E63/4EA044AD $noname  J1001 MICROSD {Lib=MICROSD}
   (    1 /cpu/Flash/DAT2 )
@@ -758,16 +758,16 @@
   (    6 GND )
   (    7 /cpu/Flash/DAT0 )
   (    8 /cpu/Flash/DAT1 )
-  ( CASE N-000212 )
+  ( CASE N-000211 )
   (   CD /cpu/Flash/CD )
   (  COM GND )
  )
  ( /4E9D76FD/4DF69E63/4E1DF4BE $noname  P1001 CONN_2 {Lib=CONN_2}
-  (    1 N-000213 )
+  (    1 N-000212 )
   (    2 /cpu/Flash/CS )
  )
  ( /4E9D76FD/4DF69E63/4DFA9745 $noname  L1001 HZ0805C202R-10 {Lib=INDUCTOR}
-  (    1 N-000212 )
+  (    1 N-000211 )
   (    2 GND )
  )
  ( /4E9D76FD/4DF69E63/4DFA96E7 $noname  R1003 10K {Lib=R}
@@ -776,11 +776,11 @@
  )
  ( /4E9D76FD/4DF69E63/4DFA9609 $noname  R1001 470k {Lib=R}
   (    1 +3.3V )
-  (    2 N-000213 )
+  (    2 N-000212 )
  )
  ( /4E9D76FD/4DF69E63/4DFA95C1 $noname  U1002 PAD2 {Lib=PAD2}
   (    1 GND )
-  (    2 N-000211 )
+  (    2 N-000210 )
  )
  ( /4E9D76FD/4DF69E63/4DF6C06D $noname  R1002 0R {Lib=R}
   (    1 /cpu/Flash/CLK )
@@ -797,9 +797,9 @@
  ( /4E9D76FD/4DF69E63/4DF6B472 $noname  U1001 AT45DB321D {Lib=AT45DB321D}
   (    1 /cpu/Flash/CMD )
   (    2 /cpu/Flash/SCK )
-  (    3 /BAT/NRST )
-  (    4 N-000213 )
-  (    5 N-000211 )
+  (    3 /cpu/NRST )
+  (    4 N-000212 )
+  (    5 N-000210 )
   (    6 +3.3V )
   (    7 GND )
   (    8 /cpu/Flash/DAT0 )
@@ -808,14 +808,14 @@
   (    1 +3.3V )
   (    2 /cpu/D0 )
   (    3 +3.3V )
-  (    4 /FPGA/D1 )
+  (    4 /cpu/D1 )
   (    5 /FPGA/D2 )
   (    6 GND )
   (    7 /FPGA/D3 )
-  (    8 /cpu/D4 )
+  (    8 /FPGA/D4 )
   (    9 +3.3V )
-  (   10 /FPGA/D5 )
-  (   11 /cpu/D6 )
+  (   10 /cpu/D5 )
+  (   11 /FPGA/D6 )
   (   12 GND )
   (   13 /cpu/D7 )
   (   14 +3.3V )
@@ -823,20 +823,20 @@
   (   16 /cpu/SDRAM/SDWE )
   (   17 /cpu/SDRAM/CAS )
   (   18 /cpu/SDRAM/RAS )
-  (   19 N-000209 )
+  (   19 N-000208 )
   (   20 /cpu/SDRAM/BA0 )
   (   21 /cpu/SDRAM/BA1 )
   (   22 /cpu/SDRAM/SDA10 )
   (   23 /FPGA/A2 )
-  (   24 /cpu/A3 )
+  (   24 /FPGA/A3 )
   (   25 /cpu/A4 )
-  (   26 /FPGA/A5 )
+  (   26 /cpu/A5 )
   (   27 +3.3V )
   (   28 GND )
   (   29 /FPGA/A6 )
-  (   30 /FPGA/A7 )
-  (   31 /cpu/A8 )
-  (   32 /cpu/A9 )
+  (   30 /cpu/A7 )
+  (   31 /FPGA/A8 )
+  (   32 /FPGA/A9 )
   (   33 /cpu/A10 )
   (   34 /cpu/A11 )
   (   35 /cpu/A13 )
@@ -861,11 +861,11 @@
   (   54 GND )
  )
  ( /4E9D76FD/4DF66D03/4DF6954A $noname  R1102 0R {Lib=R}
-  (    1 N-000209 )
+  (    1 N-000208 )
   (    2 /cpu/SDRAM/SDCS_NCS1 )
  )
  ( /4E9D76FD/4DF66D03/4DF69542 $noname  R1101 470K {Lib=R}
-  (    1 N-000209 )
+  (    1 N-000208 )
   (    2 +3.3V )
  )
  ( /4E9D76FD/4DF66D03/4DF6910B $noname  C1107 100nF {Lib=C}
@@ -901,15 +901,15 @@
   (    2 /cpu/ETHERNET/2.5A )
  )
  ( /4E9D76FD/4DE92C0F/4EA60086 $noname  C1204 10uF {Lib=C}
-  (    1 N-000197 )
+  (    1 N-000196 )
   (    2 /cpu/ETHERNET/GNDA )
  )
  ( /4E9D76FD/4DE92C0F/4EA6007B $noname  L1202 HZ0805C202R-10 {Lib=INDUCTOR}
-  (    1 N-000197 )
+  (    1 N-000196 )
   (    2 /cpu/ETHERNET/2.5A )
  )
  ( /4E9D76FD/4DE92C0F/4EA6005E $noname  C1205 100nF {Lib=C}
-  (    1 N-000199 )
+  (    1 N-000198 )
   (    2 /cpu/ETHERNET/GNDA )
  )
  ( /4E9D76FD/4DE92C0F/4EA5FDE7 $noname  L1204 HZ0805C202R-10 {Lib=INDUCTOR}
@@ -962,7 +962,7 @@
  )
  ( /4E9D76FD/4DE92C0F/4EA5FBF3 $noname  L1201 HZ0805C202R-10 {Lib=INDUCTOR}
   (    1 GND )
-  (    2 N-000196 )
+  (    2 N-000195 )
  )
  ( /4E9D76FD/4DE92C0F/4EA5FADB $noname  R1202 49.9%1 {Lib=R}
   (    1 /cpu/ETHERNET/rx+ )
@@ -973,12 +973,12 @@
   (    2 /cpu/ETHERNET/2.5A )
  )
  ( /4E9D76FD/4DE92C0F/4EA5F93F $noname  R1207 330R {Lib=R}
-  (    1 N-000191 )
-  (    2 N-000193 )
+  (    1 N-000190 )
+  (    2 N-000192 )
  )
  ( /4E9D76FD/4DE92C0F/4EA5F939 $noname  R1206 330R {Lib=R}
-  (    1 N-000198 )
-  (    2 N-000192 )
+  (    1 N-000197 )
+  (    2 N-000191 )
  )
  ( /4E9D76FD/4DE92C0F/4EA5F7B9 $noname  R1201 4.7K {Lib=R}
   (    1 +3.3V )
@@ -990,25 +990,25 @@
  )
  ( /4E9D76FD/4DE92C0F/4EA5F4D6 $noname  C1202 22pF {Lib=C}
   (    1 /cpu/ETHERNET/GNDA )
-  (    2 N-000208 )
+  (    2 N-000207 )
  )
  ( /4E9D76FD/4DE92C0F/4EA5F4CC $noname  C1201 22pF {Lib=C}
   (    1 /cpu/ETHERNET/GNDA )
-  (    2 N-000207 )
+  (    2 N-000206 )
  )
  ( /4E9D76FD/4DE92C0F/4EA5F379 $noname  J1201 RJ45-TRANSFO {Lib=RJ45-TRANSFO}
   (    1 /cpu/ETHERNET/tx+ )
-  (    2 N-000197 )
+  (    2 N-000196 )
   (    3 /cpu/ETHERNET/tx- )
   (    4 /cpu/ETHERNET/rx+ )
-  (    5 N-000199 )
+  (    5 N-000198 )
   (    6 /cpu/ETHERNET/rx- )
   (    8 /cpu/ETHERNET/GNDA )
   (    9 +3.3V )
-  (   10 N-000198 )
+  (   10 N-000197 )
   (   11 +3.3V )
-  (   12 N-000191 )
-  (   13 N-000196 )
+  (   12 N-000190 )
+  (   13 N-000195 )
  )
  ( /4E9D76FD/4DE92C0F/4EA5F351 $noname  U1201 KS8721 {Lib=KS8721}
   (    1 /cpu/ETHERNET/MDIO )
@@ -1036,8 +1036,8 @@
   (   23 /cpu/ETHERNET/GNDA )
   (   24 +3.3V )
   (   25 /cpu/ETHERNET/MDINTR )
-  (   26 N-000193 )
-  (   27 N-000192 )
+  (   26 N-000192 )
+  (   27 N-000191 )
   (   28 ? )
   (   29 ? )
   (   30 +3.3V )
@@ -1055,18 +1055,18 @@
   (   42 /cpu/ETHERNET/2.5A )
   (   43 /cpu/ETHERNET/GNDA )
   (   44 /cpu/ETHERNET/GNDA )
-  (   45 N-000208 )
-  (   46 N-000207 )
+  (   45 N-000207 )
+  (   46 N-000206 )
   (   47 /cpu/ETHERNET/2.5PLL )
-  (   48 /BAT/NRST )
+  (   48 /cpu/NRST )
  )
  ( /4E9D76FD/4DE92C0F/4DF66BAB $noname  L1205 HZ0805C202R-10 {Lib=INDUCTOR}
   (    1 /cpu/ETHERNET/GNDA )
   (    2 GND )
  )
  ( /4E9D76FD/4DE92C0F/4DF66040 $noname  X1201 25MHz {Lib=CRYSTAL}
-  (    1 N-000207 )
-  (    2 N-000208 )
+  (    1 N-000206 )
+  (    2 N-000207 )
  )
  ( /4E9D76FD/4DE92C0F/4DF65DD1 $noname  R1205 49.9%1 {Lib=R}
   (    1 /cpu/ETHERNET/2.5A )
@@ -1133,7 +1133,7 @@
  )
  ( /4DF9119F/4E0A4920 $noname  R1607 100K {Lib=R}
   (    1 VDDBU )
-  (    2 /PWR/SHDN )
+  (    2 /cpu/SHDN )
  )
  ( /4DF9119F/4E00ED88 $noname  C1605 10uF {Lib=C}
   (    1 +2.5V )
@@ -1185,11 +1185,11 @@
   (    2 GND )
  )
  ( /4DF7C95D/4EAF3A26 $noname  SW1403 SW_PUSH_SMALL {Lib=SW_PUSH_SMALL}
-  (    1 /FPGA/IO16 )
+  (    1 /FPGA_IO/IO16 )
   (    2 GND )
  )
  ( /4DF7C95D/4EAF3A25 $noname  SW1404 SW_PUSH_SMALL {Lib=SW_PUSH_SMALL}
-  (    1 /FPGA/IO0 )
+  (    1 /FPGA_IO/IO0 )
   (    2 GND )
  )
  ( /4DF7C95D/4EAF3A24 $noname  R1405 330R {Lib=R}
@@ -1198,18 +1198,18 @@
  )
  ( /4DF7C95D/4EAF3A23 $noname  R1406 330R {Lib=R}
   (    1 N-000073 )
-  (    2 /FPGA/IO5 )
+  (    2 /FPGA_IO/IO5 )
  )
  ( /4DF7C95D/4EAF3A22 $noname  R1407 330R {Lib=R}
   (    1 N-000072 )
   (    2 /FPGA_IO/IO4 )
  )
  ( /4DF7C95D/4EAF3A21 $noname  R1403 10K {Lib=R}
-  (    1 /FPGA/IO16 )
+  (    1 /FPGA_IO/IO16 )
   (    2 +3.3V )
  )
  ( /4DF7C95D/4EAF3A20 $noname  R1404 10K {Lib=R}
-  (    1 /FPGA/IO0 )
+  (    1 /FPGA_IO/IO0 )
   (    2 +3.3V )
  )
  ( /4DF7C95D/4EAF3A1F $noname  R1402 10K {Lib=R}
@@ -1323,32 +1323,32 @@
   (    8 +3.3V )
   (    9 /cpu/AT91_NRD )
   (   10 /cpu/AT91_NCS0 )
-  (   11 /cpu/A9 )
-  (   12 /FPGA/A7 )
+  (   11 /FPGA/A9 )
+  (   12 /cpu/A7 )
   (   13 /FPGA/SW0 )
   (   14 GND )
-  (   15 /cpu/A8 )
+  (   15 /FPGA/A8 )
   (   16 /FPGA/A6 )
-  (   17 /FPGA/A5 )
+  (   17 /cpu/A5 )
   (   18 /cpu/A4 )
   (   19 GND )
   (   20 +3.3V )
   (   21 +2.5V )
-  (   22 /cpu/A3 )
+  (   22 /FPGA/A3 )
   (   23 /FPGA/A2 )
-  (   24 /cpu/A1 )
+  (   24 /FPGA/A1 )
   (   25 /cpu/A0 )
   (   26 /cpu/D0 )
-  (   27 /FPGA/D1 )
+  (   27 /cpu/D1 )
   (   28 +1.2V )
   (   29 GND )
-  (   30 /FPGA/IO0 )
+  (   30 /FPGA_IO/IO0 )
   (   31 +3.3V )
   (   32 /FPGA/D2 )
   (   33 /FPGA/D3 )
-  (   34 /cpu/D4 )
-  (   35 /FPGA/D5 )
-  (   36 /cpu/D6 )
+  (   34 /FPGA/D4 )
+  (   35 /cpu/D5 )
+  (   36 /FPGA/D6 )
   (   37 GND )
   (   38 /FPGA/OSC/OSC_50M )
   (   39 +3.3V )
@@ -1366,22 +1366,22 @@
   (   51 /FPGA/FPGA_DONE )
   (   52 GND )
   (   53 /FPGA_IO/IO4 )
-  (   54 /FPGA/IO5 )
+  (   54 /FPGA_IO/IO5 )
   (   55 +3.3V )
   (   56 +1.2V )
-  (   57 /FPGA/IO6 )
+  (   57 /FPGA_IO/IO6 )
   (   58 /FPGA_IO/IO7 )
   (   59 GND )
   (   60 /FPGA/IO8 )
-  (   61 /FPGA/IO9 )
-  (   62 /FPGA/IO10 )
-  (   63 /FPGA/IO11 )
+  (   61 /FPGA_IO/IO9 )
+  (   62 /FPGA_IO/IO10 )
+  (   63 /FPGA_IO/IO11 )
   (   64 GND )
   (   65 /FPGA/IO12 )
   (   66 /FPGA/IO13 )
-  (   67 /FPGA/IO14 )
-  (   68 /FPGA_IO/IO15 )
-  (   69 /FPGA/IO16 )
+  (   67 /FPGA_IO/IO14 )
+  (   68 /FPGA/IO15 )
+  (   69 /FPGA_IO/IO16 )
   (   70 /FPGA_IO/IO17 )
   (   71 /FPGA_IO/IO18 )
   (   72 GND )
@@ -1390,19 +1390,19 @@
   (   75 /FPGA/FPGA_TMS )
   (   76 /FPGA/FPGA_TDO )
   (   77 /FPGA/FPGA_TCK )
-  (   78 /FPGA_IO/IO19 )
-  (   79 /FPGA/IO20 )
+  (   78 /FPGA/IO19 )
+  (   79 /FPGA_IO/IO20 )
   (   80 +1.2V )
   (   81 GND )
   (   82 +3.3V )
-  (   83 /FPGA/IO21 )
+  (   83 /FPGA_IO/IO21 )
   (   84 /FPGA_IO/IO22 )
-  (   85 /FPGA/IO23 )
-  (   86 /FPGA/IO24 )
+  (   85 /FPGA_IO/IO23 )
+  (   86 /FPGA_IO/IO24 )
   (   87 GND )
-  (   88 /FPGA/IO25 )
-  (   89 /FPGA_IO/IO26 )
-  (   90 /FPGA_IO/IO27 )
+  (   88 /FPGA_IO/IO25 )
+  (   89 /FPGA/IO26 )
+  (   90 /FPGA/IO27 )
   (   91 /FPGA_IO/IO28 )
   (   92 /FPGA_IO/IO29 )
   (   93 GND )
@@ -2424,35 +2424,35 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "/BAT/WAKEUP" "WAKEUP"
- SW501 2
- R504 2
  R102 1
+ R504 2
+ SW501 2
  CPU701 48
 Net 2 "/FPGA/FPGA_DONE" "FPGA_DONE"
- R1706 2
  IC1701 51
  CPU701 58
+ R1706 2
 Net 3 "/FPGA/C_FPGA_TMS" "C_FPGA_TMS"
- D603 1
- R1705 2
  CPU701 127
+ R1705 2
+ D603 1
 Net 4 "/FPGA/C_FPGA_TDO" "C_FPGA_TDO"
  R1704 2
  CPU701 62
 Net 5 "/FPGA/IRQ" "IRQ"
- CPU701 64
  IC1701 4
-Net 6 "/PWR/SHDN" "SHDN"
- CPU701 49
+ CPU701 64
+Net 6 "/cpu/SHDN" "SHDN"
  R101 1
  R1607 2
+ CPU701 49
 Net 7 "/CPUIO/AVDD" "AVDD"
- R703 2
+ P404 15
  CPU701 160
  L701 2
  C704 1
- P404 15
  C703 1
+ R703 2
 Net 8 "/cpu/I2C_C" "I2C_C"
  CPU701 1
  K1201 2
@@ -2463,37 +2463,37 @@ Net 10 "/cpu/AT91_NRD" "AT91_NRD"
  IC1701 9
  CPU701 69
 Net 11 "/cpu/AT91_NWE" "AT91_NWE"
- CPU701 70
  IC1701 5
+ CPU701 70
 Net 12 "/cpu/AT91_NCS0" "AT91_NCS0"
  IC1701 10
  CPU701 68
 Net 13 "/cpu/ADVREF" "ADVREF"
- R703 1
  CPU701 157
- C720 1
  P404 20
+ R703 1
+ C720 1
 Net 14 "/cpu/PA9" "PA9"
- CPU701 190
  R1602 1
+ CPU701 190
 Net 15 "/ucAUX/HALT" "HALT"
- R101 2
  K1202 1
+ R101 2
 Net 16 "/ucAUX/WAKEUP" "WAKEUP"
  K1202 2
  R102 2
 Net 39 "/PC13" "PC13"
- D601 1
  CPU701 56
+ D601 1
 Net 40 "/PC14" "PC14"
  D602 1
  CPU701 59
 Net 41 "/FPGA/C_FPGA_TCK" "C_FPGA_TCK"
- CPU701 185
  R1702 2
+ CPU701 185
 Net 42 "/FPGA/C_FPGA_TDI" "C_FPGA_TDI"
- R1703 2
  CPU701 63
+ R1703 2
 Net 49 "/cpu/Flash/CD" "CD"
  CPU701 60
  J1001 CD
@@ -2501,65 +2501,65 @@ Net 50 "/cpu/Flash/CS" "CS"
  CPU701 57
  P1001 2
 Net 51 "/cpu/USB/USBCNX" "USBCNX"
- R908 2
  CPU701 67
+ R908 2
 Net 58 "/cpu/AT91_TST" "AT91_TST"
  CPU701 42
  U502 2
 Net 59 "/cpu/AT91_ERASE" "AT91_ERASE"
- CPU701 40
  R506 1
-Net 60 "/BAT/NRST" "NRST"
- SW502 2
- CPU701 36
+ CPU701 40
+Net 60 "/cpu/NRST" "NRST"
  R503 2
- U1201 48
+ SW502 2
  U1001 3
+ U1201 48
+ CPU701 36
 Net 61 "" ""
  IC601 7
  C603 1
 Net 62 "" ""
- IC601 5
  C605 1
+ IC601 5
 Net 63 "" ""
  IC601 4
  C602 2
 Net 64 "" ""
- IC601 3
  C604 1
+ IC601 3
 Net 65 "" ""
  IC601 6
  C605 2
 Net 66 "" ""
- IC601 2
  C602 1
+ IC601 2
 Net 68 "/RS232/FPGA_TX" "FPGA_TX"
  IC601 8
  P502 3
 Net 69 "/RS232/TXD" "TXD"
- IC601 17
  P502 1
+ IC601 17
 Net 70 "/RS232/RXD" "RXD"
  P502 2
  IC601 16
 Net 71 "/RS232/FPGA_RX" "FPGA_RX"
- IC601 9
  P502 4
+ IC601 9
 Net 72 "" ""
- R1407 1
  D1404 1
+ R1407 1
 Net 73 "" ""
- D1403 1
  R1406 1
+ D1403 1
 Net 74 "" ""
- D1402 1
  R1405 1
+ D1402 1
 Net 75 "/FPGA/L0" "L0"
  IC1701 3
  R1405 2
 Net 76 "/FPGA/SW0" "SW0"
- R1402 2
  IC1701 13
+ R1402 2
  SW1402 1
 Net 77 "/FPGA/OSC/OSC_50M" "OSC_50M"
  OSC1901 4
@@ -2571,101 +2571,101 @@ Net 79 "" ""
  D1701 1
  R1701 2
 Net 80 "/FPGA/AUDIO/AUD_R" "AUD_R"
- IC1701 98
  R2002 2
+ IC1701 98
 Net 82 "/FPGA/FPGA_TMS" "FPGA_TMS"
- IC1701 75
  R1705 1
+ IC1701 75
 Net 83 "/FPGA/FPGA_TDO" "FPGA_TDO"
  IC1701 76
  R1704 1
 Net 84 "/FPGA/FPGA_TDI" "FPGA_TDI"
- R1703 1
  IC1701 100
+ R1703 1
 Net 85 "/FPGA/FPGA_TCK" "FPGA_TCK"
- R1702 1
  IC1701 77
+ R1702 1
 Net 86 "+2.5V" "+2.5V"
+ U1402 2
+ C1210 1
  U1201 13
- L1203 1
- C1605 1
+ U1402 4
+ C1709 1
+ C1209 1
  IC1701 74
  IC1701 46
- U1402 2
+ L1203 1
  IC1701 96
- U1402 4
- C1210 1
- C1209 1
  IC1701 21
+ C1605 1
  C1208 1
- C1712 1
- C1711 1
  C1710 1
- C1709 1
+ C1711 1
+ C1712 1
 Net 87 "+1.2V" "+1.2V"
- U1601 4
- U1601 2
- C1604 1
  C1713 1
- IC1701 56
- C1716 1
- C1715 1
- IC1701 28
  IC1701 6
  IC1701 80
  C1714 1
+ C1715 1
+ C1716 1
+ IC1701 28
+ IC1701 56
+ C1604 1
+ U1601 4
+ U1601 2
 Net 90 "/FPGA/AUDIO/AUD_L" "AUD_L"
  IC1701 2
  R2001 2
 Net 93 "/FPGA/CFG" "CFG"
- R1701 1
  IC1701 44
+ R1701 1
 Net 95 "+5V" "+5V"
- U1601 3
- U1402 3
- U1401 3
- U1403 3
  C1603 1
+ F901 1
  D1401 1
  SW1401 1
- F901 1
+ U1402 3
+ U1401 3
+ U1601 3
+ U1403 3
 Net 96 "+1.8V" "+1.8V"
  P801 1
+ P701 1
+ U1403 2
  C1401 1
  U1403 4
- U1403 2
- P701 1
 Net 97 "" ""
  D1401 2
  R1401 1
 Net 99 "VDDBU" "VDDBU"
- C714 1
- K801 3
  R504 1
- P501 1
- CPU701 47
  R1607 1
+ K801 3
+ CPU701 47
+ P501 1
+ C714 1
 Net 100 "" ""
  R1602 2
  D1601 1
 Net 101 "/PWR/PRE_5" "PRE_5"
- SW1401 2
- J1601 3
  C1601 1
+ J1601 3
+ SW1401 2
 Net 102 "/PWR/PRE3.3" "PRE3.3"
+ U1401 2
  U1401 4
  C1602 1
  P1601 2
- U1401 2
 Net 103 "" ""
  R501 1
  U501 4
 Net 104 "VONLINE" "VONLINE"
- R501 2
  D501 3
- C502 1
- U501 1
  U501 3
+ U501 1
+ R501 2
+ C502 1
 Net 105 "VBAT" "VBAT"
  CON501 2
  R502 2
@@ -2683,26 +2683,26 @@ Net 110 "/cpu/SDRAM/CFIOR_NBS1_NWR1" "CFIOR_NBS1_NWR1"
  CPU701 102
  U1101 39
 Net 111 "/cpu/SDRAM/SDCS_NCS1" "SDCS_NCS1"
- R1102 2
  CPU701 103
+ R1102 2
 Net 112 "/cpu/SDRAM/SDWE" "SDWE"
- CPU701 116
  U1101 16
+ CPU701 116
 Net 113 "/cpu/SDRAM/RAS" "RAS"
  CPU701 105
  U1101 18
 Net 114 "/cpu/SDRAM/CAS" "CAS"
- CPU701 104
  U1101 17
+ CPU701 104
 Net 115 "/cpu/SDRAM/SDCK" "SDCK"
- U1101 38
  CPU701 115
+ U1101 38
 Net 116 "/cpu/SDRAM/SDCKE" "SDCKE"
- U1101 37
  CPU701 117
+ U1101 37
 Net 117 "/cpu/SDRAM/BA1" "BA1"
- U1101 21
  CPU701 80
+ U1101 21
 Net 118 "/cpu/SDRAM/BA0" "BA0"
  CPU701 81
  U1101 20
@@ -2710,158 +2710,158 @@ Net 119 "/cpu/SDRAM/SDA10" "SDA10"
  CPU701 100
  U1101 22
 Net 120 "+3.3V" "+3.3V"
- P304 1
- U1101 9
- U1101 1
+ CPU701 187
+ CPU701 199
+ C1207 1
+ C709 1
+ R1201 1
+ C710 1
+ C711 1
+ C712 1
+ R702 1
  R906 2
- U1101 3
- R1003 2
- C1001 1
- C1002 1
- R1001 1
- J1001 4
- P404 19
+ L701 1
+ C702 1
+ C701 1
+ R701 1
+ C1707 1
+ C1706 1
+ C1705 1
+ P1601 1
+ U1201 30
  U1201 7
- P403 1
+ C1206 1
+ U502 1
+ D501 2
+ K401 3
+ J1201 11
+ J1201 9
+ R503 1
+ P202 1
+ P201 2
+ P201 1
+ IC601 19
+ IC601 14
+ IC601 20
+ R602 1
+ R601 1
+ C601 1
+ OSC1901 6
+ OSC1901 1
+ C1708 1
+ R1402 1
+ R1404 2
+ R1403 2
+ U1201 24
+ U1001 6
+ U1101 14
+ U1101 43
+ P304 1
  CPU701 5
  CPU701 24
  CPU701 13
  CPU701 52
  CPU701 32
- P1601 1
- J1201 9
- J1201 11
- R702 1
- L701 1
- C702 1
- C701 1
- U1101 43
- U1101 14
- U1201 30
- C1705 1
- C710 1
- C1706 1
- U1001 6
- C1707 1
- C711 1
- C712 1
- C1206 1
- C1901 1
- OSC1901 1
- P202 1
- P201 2
- P201 1
- CPU701 187
+ R1001 1
+ C1001 1
+ C1002 1
+ J1001 4
+ R1003 2
+ P404 19
+ P403 1
+ C1107 1
+ C1106 1
+ U1101 9
+ U1101 3
+ U1101 1
+ C1105 1
+ C1104 1
+ C1103 1
+ C1102 1
+ C1101 1
+ U1101 27
+ U1101 49
+ R1101 2
+ IC1701 20
  C1701 1
+ IC1701 31
+ IC1701 82
+ IC1701 97
+ IC1701 99
  C1702 1
  C1703 1
  C1704 1
- D501 2
- C1708 1
- IC601 19
- IC601 14
- IC601 20
- U502 1
- R602 1
- R601 1
- C601 1
- CPU701 199
- R1201 1
- R1402 1
- R1404 2
- R1403 2
- U1201 24
- OSC1901 6
- C1103 1
+ IC1701 43
+ IC1701 45
+ IC1701 39
+ IC1701 8
  IC1701 55
  IC1701 73
- C1106 1
- C1104 1
- C1105 1
- IC1701 99
- IC1701 97
- IC1701 82
- C1101 1
- R701 1
- U1101 27
- IC1701 8
- U1101 49
- C1102 1
- C1207 1
- R1101 2
- C1107 1
- R503 1
- IC1701 43
- C709 1
- K401 3
- IC1701 20
- IC1701 39
- IC1701 31
- IC1701 45
+ C1901 1
 Net 121 "/cpu/VDDIOM" "VDDIOM"
  R701 2
- CPU701 65
- CPU701 132
+ C708 1
+ CPU701 114
+ C705 1
  C706 1
  CPU701 90
  C707 1
- CPU701 114
- C705 1
- C708 1
+ CPU701 132
+ CPU701 65
 Net 122 "/cpu/VDDCORE" "VDDCORE"
- C719 1
- C718 1
- C717 1
  C716 1
  P701 2
  C715 1
- CPU701 147
- CPU701 174
- CPU701 77
- CPU701 38
  CPU701 203
+ CPU701 174
+ CPU701 38
+ CPU701 77
+ CPU701 147
+ C717 1
+ C718 1
+ C719 1
 Net 123 "/cpu/GNDANA" "GNDANA"
- C703 2
- C720 2
- R704 1
  C704 2
+ C720 2
  CPU701 156
+ R704 1
+ C703 2
 Net 124 "/cpu/VDDIOP1" "VDDIOP1"
- R702 2
- CPU701 169
  C713 1
+ CPU701 169
+ R702 2
 Net 125 "/cpu/CLK/OSCSEL" "OSCSEL"
- CPU701 41
  R803 1
+ CPU701 41
 Net 132 "/cpu/Flash/CLK" "CLK"
- R1002 1
  J1001 5
+ R1002 1
  CPU701 189
 Net 133 "/cpu/Flash/DAT1" "DAT1"
  J1001 8
  CPU701 184
 Net 134 "/cpu/Flash/DAT2" "DAT2"
- J1001 1
  CPU701 183
+ J1001 1
 Net 135 "/cpu/Flash/DAT3" "DAT3"
  CPU701 182
  J1001 2
 Net 136 "/cpu/Flash/SCK" "SCK"
- U1001 2
  R1002 2
+ U1001 2
  CPU701 181
 Net 137 "/cpu/Flash/CMD" "CMD"
+ CPU701 180
  R1003 1
  J1001 3
  U1001 1
- CPU701 180
 Net 138 "/cpu/Flash/DAT0" "DAT0"
- CPU701 179
- J1001 7
  U1001 8
+ J1001 7
+ CPU701 179
 Net 139 "/cpu/ETHERNET/TX_EN" "TX_EN"
- U1201 16
  CPU701 197
+ U1201 16
 Net 140 "/cpu/ETHERNET/MDINTR" "MDINTR"
  CPU701 186
  U1201 25
@@ -2873,17 +2873,17 @@ Net 142 "/cpu/ETHERNET/MDC" "MDC"
  U1201 2
  CPU701 205
 Net 143 "/cpu/ETHERNET/CRS" "CRS"
- U1201 22
  CPU701 7
+ U1201 22
 Net 144 "/cpu/ETHERNET/COL" "COL"
- U1201 21
  CPU701 8
+ U1201 21
 Net 145 "/cpu/ETHERNET/TX_ER" "TX_ER"
- CPU701 207
  U1201 14
+ CPU701 207
 Net 146 "/cpu/ETHERNET/RX_DV" "RX_DV"
- CPU701 198
  U1201 9
+ CPU701 198
 Net 147 "/cpu/ETHERNET/RX_CLK" "RX_CLK"
  U1201 10
  CPU701 4
@@ -2894,14 +2894,14 @@ Net 149 "/cpu/ETHERNET/RXD1" "RXD1"
  CPU701 196
  U1201 5
 Net 150 "/cpu/ETHERNET/RXD2" "RXD2"
- U1201 4
  CPU701 2
+ U1201 4
 Net 151 "/cpu/ETHERNET/RXD3" "RXD3"
- CPU701 3
  U1201 3
+ CPU701 3
 Net 152 "/cpu/ETHERNET/TXD0" "TXD0"
- CPU701 193
  U1201 17
+ CPU701 193
 Net 153 "/cpu/ETHERNET/TXD2" "TXD2"
  U1201 19
  CPU701 191
@@ -2912,87 +2912,87 @@ Net 155 "/cpu/ETHERNET/TX_CLK" "TX_CLK"
  U1201 15
  CPU701 202
 Net 156 "/cpu/USB/DDP" "DDP"
- R909 1
  C906 1
  CPU701 55
+ R909 1
 Net 157 "/cpu/USB/DDM" "DDM"
- R910 1
  CPU701 54
  C907 1
+ R910 1
 Net 158 "/cpu/USB/HDPA" "HDPA"
- R902 1
  CPU701 51
+ R902 1
 Net 159 "/cpu/USB/HDMA" "HDMA"
- CPU701 50
  R901 1
+ CPU701 50
 Net 160 "/cpu/CLK/XIN32" "XIN32"
+ CPU701 46
  X802 2
  C804 1
- CPU701 46
 Net 161 "/cpu/CLK/XOUT32" "XOUT32"
  X802 1
- C803 1
  CPU701 45
+ C803 1
 Net 164 "/cpu/ETHERNET/RX_ER" "RX_ER"
- U1201 11
  CPU701 201
+ U1201 11
 Net 165 "/cpu/ETHERNET/TXD1" "TXD1"
  U1201 18
  CPU701 194
 Net 166 "/cpu/CLK/PLLRCA" "PLLRCA"
- CPU701 154
- R804 1
  C808 1
+ R804 1
+ CPU701 154
 Net 167 "/cpu/CLK/XOUT" "XOUT"
- CPU701 150
  R801 1
+ CPU701 150
 Net 168 "/cpu/CLK/XIN" "XIN"
  R802 1
  CPU701 149
 Net 169 "/cpu/CLK/VDDPLL" "VDDPLL"
+ CPU701 148
  P801 2
  CPU701 155
- CPU701 148
  C806 1
  C805 1
 Net 171 "GND" "GND"
+ CPU701 33
+ J901 4
+ C1901 2
+ SW601 2
+ CPU701 173
  CPU701 14
  CPU701 6
- CPU701 91
- CPU701 53
- J901 4
- CPU701 33
  OSC1901 3
- C1901 2
- R604 2
- R605 2
- SW601 2
- R603 2
- CPU701 204
- R903 1
- R904 1
- CPU701 173
  CPU701 153
  CPU701 133
  CPU701 113
- CPU701 66
+ CPU701 53
+ CPU701 204
  C907 2
- CPU701 25
- P304 18
- P404 2
- R905 2
- P403 12
- CPU701 151
- CPU701 170
- CPU701 200
- CN_AU2001 1
- C2002 2
- C2001 2
- CPU701 39
- CPU701 78
- P202 14
  P202 13
+ P202 14
+ CPU701 151
+ P304 18
  P201 24
+ R904 1
+ CPU701 170
+ CPU701 25
+ P404 2
+ CPU701 78
+ CPU701 39
+ P403 12
+ C2002 2
+ R603 2
+ CPU701 91
+ R605 2
+ CPU701 66
+ R604 2
+ C2001 2
+ CN_AU2001 1
+ R903 1
+ CPU701 200
+ R905 2
  D1402 2
  D1403 2
  D1404 2
@@ -3048,7 +3048,6 @@ Net 171 "GND" "GND"
  P103 1
  P104 1
  U1001 7
- C1001 2
  C804 2
  C803 2
  C802 2
@@ -3056,6 +3055,7 @@ Net 171 "GND" "GND"
  C806 2
  C805 2
  C808 2
+ C1001 2
  C807 2
  K801 1
  IC601 1
@@ -3079,589 +3079,590 @@ Net 171 "GND" "GND"
  C1105 2
  C1106 2
  U1101 6
+ K1201 3
+ K1202 3
  C707 2
  C708 2
- C1603 2
- C1605 2
- R1401 2
- D1601 2
- CPU701 146
- C710 2
- C709 2
- C705 2
- C706 2
- X901 4
- C711 2
- L901 2
  C719 2
  C718 2
  C717 2
  C716 2
+ C1603 2
+ C1605 2
+ R1401 2
+ D1601 2
  C701 2
  C702 2
  R704 2
  C713 2
  C712 2
- K1201 3
- K1202 3
- J1601 1
- C902 2
- C901 2
- C714 2
- C903 2
- CPU701 188
- C905 2
- C1601 2
+ L901 2
+ C711 2
+ X901 5
+ X901 4
  J1601 2
- K401 1
+ J1601 1
  U501 2
  C502 2
  C501 2
+ C714 2
  C715 2
- C1602 2
  L1201 1
- C906 2
  CON501 1
  SW502 1
+ C1601 2
  SW501 1
+ K401 1
+ C906 2
+ CPU701 188
+ CPU701 146
+ C710 2
+ C709 2
+ C705 2
+ C706 2
+ C902 2
+ C901 2
+ C903 2
+ C905 2
+ C1602 2
 Net 173 "" ""
  D602 2
  R604 1
 Net 174 "" ""
- D601 2
  R603 1
+ D601 2
 Net 175 "" ""
- R605 1
  D603 2
+ R605 1
 Net 177 "" ""
  CN_AU2001 3
- R2001 1
  C2001 1
+ R2001 1
 Net 178 "" ""
+ C2002 1
  R2002 1
  CN_AU2001 2
- C2002 1
 Net 181 "" ""
- C905 1
- R907 1
- X901 1
-Net 182 "" ""
  R908 1
  R905 1
  R907 2
-Net 183 "" ""
- R904 2
- J901 2
- C902 1
- R901 2
-Net 184 "" ""
- R902 2
- J901 3
- C901 1
+Net 182 "" ""
  R903 2
-Net 186 "/cpu/USB/USB_SHIELD" "USB_SHIELD"
+ C901 1
+ J901 3
+ R902 2
+Net 183 "/cpu/USB/USB_SHIELD" "USB_SHIELD"
  L901 1
- X901 M2
  X901 M1
- X901 M3
+ X901 M2
  X901 M4
-Net 187 "/cpu/USB/USB_H_VCC" "USB_H_VCC"
+ X901 M3
+Net 184 "" ""
+ R907 1
+ X901 1
+ C905 1
+Net 185 "" ""
+ J901 2
+ R901 2
+ R904 2
+ C902 1
+Net 186 "/cpu/USB/USB_H_VCC" "USB_H_VCC"
  J901 1
  F901 2
  C903 1
+Net 187 "/cpu/USB/SAM-BA_D+" "SAM-BA_D+"
+ X901 3
+ R909 2
+ C904 2
+ R906 1
 Net 188 "/cpu/USB/SAM-BA_D-" "SAM-BA_D-"
- C904 1
  X901 2
  R910 2
-Net 189 "/cpu/USB/SAM-BA_D+" "SAM-BA_D+"
- R906 1
- X901 3
- C904 2
- R909 2
-Net 191 "" ""
- R1207 1
+ C904 1
+Net 190 "" ""
  J1201 12
-Net 192 "" ""
- U1201 27
+ R1207 1
+Net 191 "" ""
  R1206 2
-Net 193 "" ""
+ U1201 27
+Net 192 "" ""
  R1207 2
  U1201 26
-Net 194 "/cpu/ETHERNET/GNDA" "GNDA"
- U1201 36
- C1205 2
+Net 193 "/cpu/ETHERNET/GNDA" "GNDA"
  U1201 39
  L1205 1
- C1206 2
- C1204 2
  U1201 12
- C1203 1
- U1201 23
+ U1201 8
+ C1202 1
+ C1201 1
  J1201 8
- U1201 43
- U1201 34
+ C1203 1
+ C1204 2
+ C1205 2
+ C1214 2
+ C1211 2
+ C1212 2
+ C1213 2
+ C1210 2
+ C1209 2
+ C1208 2
+ C1207 2
+ C1216 2
+ C1215 2
  U1201 44
  U1201 35
- C1216 2
- C1207 2
- C1208 2
- C1209 2
- C1210 2
- C1213 2
- C1215 2
- C1212 2
- C1211 2
- C1214 2
- U1201 8
- C1201 1
- C1202 1
-Net 196 "" ""
- L1201 2
+ C1206 2
+ U1201 36
+ U1201 23
+ U1201 43
+ U1201 34
+Net 195 "" ""
  J1201 13
-Net 197 "" ""
- J1201 2
- C1204 1
+ L1201 2
+Net 196 "" ""
  L1202 1
-Net 198 "" ""
+ C1204 1
+ J1201 2
+Net 197 "" ""
  J1201 10
  R1206 1
-Net 199 "" ""
- J1201 5
+Net 198 "" ""
  C1205 1
-Net 200 "/cpu/ETHERNET/rx-" "rx-"
+ J1201 5
+Net 199 "/cpu/ETHERNET/rx-" "rx-"
  U1201 32
- R1203 1
  J1201 6
-Net 201 "/cpu/ETHERNET/rx+" "rx+"
- J1201 4
+ R1203 1
+Net 200 "/cpu/ETHERNET/rx+" "rx+"
  R1202 1
  U1201 33
-Net 202 "/cpu/ETHERNET/tx+" "tx+"
- R1205 2
+ J1201 4
+Net 201 "/cpu/ETHERNET/tx+" "tx+"
  U1201 41
+ R1205 2
  J1201 1
-Net 203 "/cpu/ETHERNET/2.5A" "2.5A"
- L1204 1
- C1213 1
- C1212 1
- C1211 1
- L1202 2
- C1203 2
+Net 202 "/cpu/ETHERNET/2.5A" "2.5A"
  L1203 2
- U1201 31
  R1203 2
- R1202 2
+ C1213 1
+ C1203 2
+ L1204 1
  R1204 2
+ C1212 1
+ R1202 2
+ U1201 31
  R1205 1
+ L1202 2
+ C1211 1
  U1201 38
  U1201 42
-Net 204 "/cpu/ETHERNET/tx-" "tx-"
- J1201 3
+Net 203 "/cpu/ETHERNET/tx-" "tx-"
  U1201 40
  R1204 1
-Net 205 "/cpu/ETHERNET/2.5PLL" "2.5PLL"
- C1215 1
- C1216 1
- U1201 47
+ J1201 3
+Net 204 "/cpu/ETHERNET/2.5PLL" "2.5PLL"
  L1204 2
+ C1216 1
+ C1215 1
  C1214 1
-Net 207 "" ""
- C1201 2
+ U1201 47
+Net 206 "" ""
  U1201 46
+ C1201 2
  X1201 1
-Net 208 "" ""
- U1201 45
+Net 207 "" ""
  C1202 2
  X1201 2
-Net 209 "" ""
+ U1201 45
+Net 208 "" ""
  R1101 1
  R1102 1
  U1101 19
-Net 211 "" ""
+Net 210 "" ""
  U1001 5
  U1002 2
-Net 212 "" ""
+Net 211 "" ""
+ J1001 CASE
+ J1001 CASE
  L1001 1
- J1001 CASE
- J1001 CASE
-Net 213 "" ""
+Net 212 "" ""
  P1001 1
- U1001 4
  R1001 2
-Net 214 "" ""
+ U1001 4
+Net 213 "" ""
  K801 2
  R803 2
-Net 215 "" ""
- R804 2
+Net 214 "" ""
  C807 1
-Net 216 "" ""
+ R804 2
+Net 215 "" ""
  X801 1
- R801 2
  C801 1
-Net 217 "" ""
+ R801 2
+Net 216 "" ""
  X801 2
- R802 2
  C802 1
-Net 218 "/CPUIO/PB0" "PB0"
+ R802 2
+Net 217 "/CPUIO/PB0" "PB0"
  P403 2
  CPU701 9
-Net 219 "/CPUIO/PC31" "PC31"
- P304 17
+Net 218 "/cpu/PC31" "PC31"
  CPU701 145
-Net 220 "/CPUIO/PC30" "PC30"
+ P304 17
+Net 219 "/CPUIO/PC30" "PC30"
  P304 16
  CPU701 144
-Net 221 "/CPUIO/PC29" "PC29"
- CPU701 143
+Net 220 "/cpu/PC29" "PC29"
  P304 15
-Net 222 "/cpu/PC28" "PC28"
- CPU701 142
+ CPU701 143
+Net 221 "/CPUIO/PC28" "PC28"
  P304 14
-Net 223 "/cpu/PC27" "PC27"
- P304 13
+ CPU701 142
+Net 222 "/cpu/PC27" "PC27"
  CPU701 141
-Net 224 "/cpu/PC26" "PC26"
- P304 12
+ P304 13
+Net 223 "/CPUIO/PC26" "PC26"
  CPU701 140
-Net 225 "/cpu/PC25" "PC25"
+ P304 12
+Net 224 "/cpu/PC25" "PC25"
  CPU701 139
  P304 11
-Net 226 "/CPUIO/PC24" "PC24"
+Net 225 "/CPUIO/PC24" "PC24"
  P304 10
  CPU701 138
-Net 227 "/cpu/PC23" "PC23"
+Net 226 "/CPUIO/PC23" "PC23"
  CPU701 137
  P304 9
-Net 228 "/CPUIO/PC22" "PC22"
+Net 227 "/CPUIO/PC22" "PC22"
  P304 8
  CPU701 136
-Net 229 "/cpu/PC21" "PC21"
+Net 228 "/cpu/PC21" "PC21"
  CPU701 135
  P304 7
-Net 230 "/cpu/PC20" "PC20"
+Net 229 "/CPUIO/PC20" "PC20"
  P304 6
  CPU701 134
-Net 231 "/CPUIO/PC19" "PC19"
+Net 230 "/CPUIO/PC19" "PC19"
  P304 5
  CPU701 131
-Net 232 "/cpu/PC18" "PC18"
- P304 4
+Net 231 "/CPUIO/PC18" "PC18"
  CPU701 130
-Net 233 "/CPUIO/PC17" "PC17"
- P304 3
+ P304 4
+Net 232 "/CPUIO/PC17" "PC17"
  CPU701 129
-Net 234 "/cpu/PC16" "PC16"
+ P304 3
+Net 233 "/cpu/PC16" "PC16"
  CPU701 128
  P304 2
-Net 236 "/cpu/PC8" "PC8"
+Net 235 "/cpu/PC8" "PC8"
  SW601 1
  CPU701 61
-Net 239 "/cpu/PB31" "PB31"
- P404 1
+Net 238 "/cpu/PB31" "PB31"
  CPU701 178
-Net 240 "/cpu/PB30" "PB30"
+ P404 1
+Net 239 "/CPUIO/PB30" "PB30"
  CPU701 177
  P404 4
-Net 241 "/CPUIO/PB29" "PB29"
+Net 240 "/CPUIO/PB29" "PB29"
  P404 3
  CPU701 176
-Net 242 "/CPUIO/PB28" "PB28"
- P404 6
+Net 241 "/CPUIO/PB28" "PB28"
  CPU701 175
-Net 243 "/CPUIO/PB27" "PB27"
- CPU701 172
+ P404 6
+Net 242 "/CPUIO/PB27" "PB27"
  P404 5
-Net 244 "/cpu/PB26" "PB26"
- P404 8
+ CPU701 172
+Net 243 "/cpu/PB26" "PB26"
  CPU701 171
-Net 245 "/CPUIO/PB25" "PB25"
- CPU701 168
+ P404 8
+Net 244 "/cpu/PB25" "PB25"
  P404 7
-Net 246 "/CPUIO/PB24" "PB24"
- CPU701 167
+ CPU701 168
+Net 245 "/cpu/PB24" "PB24"
  P404 10
-Net 247 "/CPUIO/PB23" "PB23"
- P404 9
+ CPU701 167
+Net 246 "/cpu/PB23" "PB23"
  CPU701 166
-Net 248 "/CPUIO/PB22" "PB22"
+ P404 9
+Net 247 "/cpu/PB22" "PB22"
  CPU701 165
  P404 12
-Net 249 "/CPUIO/PB21" "PB21"
- P404 11
+Net 248 "/cpu/PB21" "PB21"
  CPU701 164
-Net 250 "/CPUIO/PB20" "PB20"
+ P404 11
+Net 249 "/cpu/PB20" "PB20"
  CPU701 163
  P404 14
-Net 251 "/CPUIO/PB19" "PB19"
- CPU701 28
+Net 250 "/cpu/PB19" "PB19"
  P403 11
-Net 252 "/CPUIO/PB18" "PB18"
+ CPU701 28
+Net 251 "/CPUIO/PB18" "PB18"
  CPU701 27
  P403 10
-Net 253 "/CPUIO/PB17" "PB17"
- CPU701 26
+Net 252 "/CPUIO/PB17" "PB17"
  P403 9
-Net 254 "/cpu/PB16" "PB16"
+ CPU701 26
+Net 253 "/CPUIO/PB16" "PB16"
  CPU701 23
  P403 8
-Net 255 "/RS232/DTXD" "DTXD"
- IC601 13
+Net 254 "/RS232/DTXD" "DTXD"
  R602 2
  CPU701 22
-Net 256 "/RS232/DRXD" "DRXD"
+ IC601 13
+Net 255 "/RS232/DRXD" "DRXD"
  IC601 15
  CPU701 21
-Net 259 "/CPUIO/PB11" "PB11"
+Net 258 "/CPUIO/PB11" "PB11"
  CPU701 162
  P404 13
-Net 260 "/cpu/PB10" "PB10"
+Net 259 "/CPUIO/PB10" "PB10"
  CPU701 161
  P404 16
-Net 261 "/cpu/PB9" "PB9"
+Net 260 "/cpu/PB9" "PB9"
  CPU701 20
  P403 7
-Net 262 "/CPUIO/PB8" "PB8"
- CPU701 19
+Net 261 "/cpu/PB8" "PB8"
  P403 6
-Net 263 "/RS232/RXD1" "RXD1"
- CPU701 18
+ CPU701 19
+Net 262 "/RS232/RXD1" "RXD1"
  P503 2
-Net 264 "/RS232/TXD1" "TXD1"
+ CPU701 18
+Net 263 "/RS232/TXD1" "TXD1"
  CPU701 17
  P503 1
-Net 265 "/RS232/RXD0" "RXD0"
- P503 6
+Net 264 "/RS232/RXD0" "RXD0"
  CPU701 16
-Net 266 "/RS232/TXD0" "TXD0"
+ P503 6
+Net 265 "/RS232/TXD0" "TXD0"
  P503 4
  CPU701 15
-Net 267 "/CPUIO/PB3" "PB3"
+Net 266 "/cpu/PB3" "PB3"
  P403 5
  CPU701 12
-Net 268 "/cpu/PB2" "PB2"
+Net 267 "/CPUIO/PB2" "PB2"
  CPU701 11
  P403 4
-Net 269 "/CPUIO/PB1" "PB1"
- CPU701 10
+Net 268 "/cpu/PB1" "PB1"
  P403 3
-Net 270 "/CPUIO/PC1" "PC1"
- P404 17
+ CPU701 10
+Net 269 "/cpu/PC1" "PC1"
  CPU701 159
-Net 271 "/cpu/PC0" "PC0"
- CPU701 158
+ P404 17
+Net 270 "/cpu/PC0" "PC0"
  P404 18
-Net 272 "/cpu/D7" "D7"
- CPU701 118
+ CPU701 158
+Net 271 "/cpu/D7" "D7"
  U1101 13
+ CPU701 118
  IC1701 40
-Net 273 "/cpu/D6" "D6"
- CPU701 112
+Net 272 "/FPGA/D6" "D6"
  U1101 11
+ CPU701 112
  IC1701 36
-Net 274 "/FPGA/D5" "D5"
+Net 273 "/cpu/D5" "D5"
  U1101 10
- IC1701 35
  CPU701 111
-Net 275 "/cpu/D4" "D4"
+ IC1701 35
+Net 274 "/FPGA/D4" "D4"
  IC1701 34
- CPU701 110
  U1101 8
-Net 276 "/FPGA/D3" "D3"
+ CPU701 110
+Net 275 "/FPGA/D3" "D3"
  CPU701 109
  IC1701 33
  U1101 7
-Net 277 "/FPGA/D2" "D2"
+Net 276 "/FPGA/D2" "D2"
  IC1701 32
- U1101 5
  CPU701 108
-Net 278 "/FPGA/D1" "D1"
+ U1101 5
+Net 277 "/cpu/D1" "D1"
  U1101 4
- IC1701 27
  CPU701 107
-Net 279 "/cpu/D0" "D0"
+ IC1701 27
+Net 278 "/cpu/D0" "D0"
+ U1101 2
  IC1701 26
  CPU701 106
- U1101 2
-Net 280 "/cpu/A9" "A9"
+Net 279 "/FPGA/A9" "A9"
  IC1701 11
- CPU701 88
  U1101 32
-Net 281 "/cpu/A8" "A8"
- CPU701 89
- U1101 31
+ CPU701 88
+Net 280 "/FPGA/A8" "A8"
  IC1701 15
-Net 282 "/FPGA/A7" "A7"
+ U1101 31
+ CPU701 89
+Net 281 "/cpu/A7" "A7"
  IC1701 12
- CPU701 92
  U1101 30
-Net 283 "/FPGA/A6" "A6"
+ CPU701 92
+Net 282 "/FPGA/A6" "A6"
  IC1701 16
  U1101 29
  CPU701 93
-Net 284 "/FPGA/A5" "A5"
- IC1701 17
+Net 283 "/cpu/A5" "A5"
  U1101 26
+ IC1701 17
  CPU701 94
-Net 285 "/cpu/A4" "A4"
+Net 284 "/cpu/A4" "A4"
  IC1701 18
- U1101 25
  CPU701 95
-Net 286 "/cpu/A3" "A3"
+ U1101 25
+Net 285 "/FPGA/A3" "A3"
  CPU701 96
  IC1701 22
  U1101 24
-Net 287 "/FPGA/A2" "A2"
+Net 286 "/FPGA/A2" "A2"
+ IC1701 23
  U1101 23
  CPU701 97
- IC1701 23
-Net 288 "/cpu/A1" "A1"
+Net 287 "/FPGA/A1" "A1"
  CPU701 98
  IC1701 24
-Net 289 "/cpu/A0" "A0"
+Net 288 "/cpu/A0" "A0"
  U1101 15
  IC1701 25
  CPU701 99
-Net 290 "/RS232/DFPGA_RX" "DFPGA_RX"
- IC1701 95
+Net 289 "/RS232/DFPGA_RX" "DFPGA_RX"
  IC601 10
  P503 3
+ IC1701 95
  P202 12
-Net 291 "/RS232/DFPGA_TX" "DFPGA_TX"
+Net 290 "/RS232/DFPGA_TX" "DFPGA_TX"
  P503 5
+ IC1701 94
  IC601 12
  R601 2
- IC1701 94
  P202 11
-Net 292 "/FPGA_IO/IO29" "IO29"
- P202 10
+Net 291 "/FPGA_IO/IO29" "IO29"
  IC1701 92
-Net 293 "/FPGA_IO/IO28" "IO28"
+ P202 10
+Net 292 "/FPGA_IO/IO28" "IO28"
  P202 9
  IC1701 91
-Net 294 "/FPGA_IO/IO27" "IO27"
- P202 8
+Net 293 "/FPGA/IO27" "IO27"
  IC1701 90
-Net 295 "/FPGA_IO/IO26" "IO26"
+ P202 8
+Net 294 "/FPGA/IO26" "IO26"
  P202 7
  IC1701 89
-Net 296 "/FPGA/IO25" "IO25"
- IC1701 88
+Net 295 "/FPGA_IO/IO25" "IO25"
  P202 6
-Net 297 "/FPGA/IO24" "IO24"
- P202 5
+ IC1701 88
+Net 296 "/FPGA_IO/IO24" "IO24"
  IC1701 86
-Net 298 "/FPGA/IO23" "IO23"
- IC1701 85
+ P202 5
+Net 297 "/FPGA_IO/IO23" "IO23"
  P202 4
-Net 299 "/FPGA_IO/IO22" "IO22"
- P202 3
+ IC1701 85
+Net 298 "/FPGA_IO/IO22" "IO22"
  IC1701 84
-Net 300 "/FPGA/IO21" "IO21"
- IC1701 83
+ P202 3
+Net 299 "/FPGA_IO/IO21" "IO21"
  P202 2
-Net 301 "/FPGA/IO20" "IO20"
- P201 23
+ IC1701 83
+Net 300 "/FPGA_IO/IO20" "IO20"
  IC1701 79
-Net 302 "/FPGA_IO/IO19" "IO19"
+ P201 23
+Net 301 "/FPGA/IO19" "IO19"
  IC1701 78
  P201 22
-Net 303 "/FPGA_IO/IO18" "IO18"
- IC1701 71
+Net 302 "/FPGA_IO/IO18" "IO18"
  P201 21
-Net 304 "/FPGA_IO/IO17" "IO17"
+ IC1701 71
+Net 303 "/FPGA_IO/IO17" "IO17"
  P201 20
  IC1701 70
-Net 305 "/FPGA/IO16" "IO16"
- P201 19
- R1403 1
- IC1701 69
+Net 304 "/FPGA_IO/IO16" "IO16"
  SW1403 1
-Net 306 "/FPGA_IO/IO15" "IO15"
- P201 18
+ R1403 1
+ P201 19
+ IC1701 69
+Net 305 "/FPGA/IO15" "IO15"
  IC1701 68
-Net 307 "/FPGA/IO14" "IO14"
- IC1701 67
+ P201 18
+Net 306 "/FPGA_IO/IO14" "IO14"
  P201 17
-Net 308 "/FPGA/IO13" "IO13"
- IC1701 66
+ IC1701 67
+Net 307 "/FPGA/IO13" "IO13"
  P201 15
-Net 309 "/FPGA/IO12" "IO12"
- P201 16
+ IC1701 66
+Net 308 "/FPGA/IO12" "IO12"
  IC1701 65
-Net 310 "/FPGA/IO11" "IO11"
- IC1701 63
+ P201 16
+Net 309 "/FPGA_IO/IO11" "IO11"
  P201 14
-Net 311 "/FPGA/IO10" "IO10"
+ IC1701 63
+Net 310 "/FPGA_IO/IO10" "IO10"
  P201 13
  IC1701 62
-Net 312 "/FPGA/IO9" "IO9"
- P201 12
+Net 311 "/FPGA_IO/IO9" "IO9"
  IC1701 61
-Net 313 "/FPGA/IO8" "IO8"
+ P201 12
+Net 312 "/FPGA/IO8" "IO8"
  P201 11
  IC1701 60
-Net 314 "/FPGA_IO/IO7" "IO7"
+Net 313 "/FPGA_IO/IO7" "IO7"
  P201 10
  IC1701 58
-Net 315 "/FPGA/IO6" "IO6"
- P201 9
+Net 314 "/FPGA_IO/IO6" "IO6"
  IC1701 57
-Net 316 "/FPGA/IO5" "IO5"
+ P201 9
+Net 315 "/FPGA_IO/IO5" "IO5"
+ R1406 2
  P201 8
  IC1701 54
- R1406 2
-Net 317 "/FPGA_IO/IO4" "IO4"
- P201 7
+Net 316 "/FPGA_IO/IO4" "IO4"
  IC1701 53
+ P201 7
  R1407 2
-Net 318 "/FPGA_IO/IO3" "IO3"
+Net 317 "/FPGA_IO/IO3" "IO3"
  P201 6
  IC1701 49
-Net 319 "/FPGA_IO/IO2" "IO2"
+Net 318 "/FPGA_IO/IO2" "IO2"
  P201 5
  IC1701 48
-Net 320 "/FPGA_IO/IO1" "IO1"
+Net 319 "/FPGA_IO/IO1" "IO1"
  P201 4
  IC1701 47
-Net 321 "/FPGA/IO0" "IO0"
- P201 3
- SW1404 1
- R1404 1
+Net 320 "/FPGA_IO/IO0" "IO0"
  IC1701 30
-Net 322 "/cpu/A10" "A10"
- CPU701 87
+ SW1404 1
+ P201 3
+ R1404 1
+Net 321 "/cpu/A10" "A10"
  U1101 33
-Net 323 "/cpu/A11" "A11"
+ CPU701 87
+Net 322 "/cpu/A11" "A11"
  U1101 34
  CPU701 86
-Net 325 "/cpu/A13" "A13"
- CPU701 84
+Net 324 "/cpu/A13" "A13"
  U1101 35
-Net 326 "/cpu/A14" "A14"
+ CPU701 84
+Net 325 "/cpu/A14" "A14"
  CPU701 83
  U1101 36
-Net 327 "/cpu/D8" "D8"
+Net 326 "/cpu/D8" "D8"
  U1101 42
  CPU701 119
-Net 328 "/cpu/D9" "D9"
- U1101 44
+Net 327 "/cpu/D9" "D9"
  CPU701 120
-Net 329 "/cpu/D10" "D10"
- CPU701 121
+ U1101 44
+Net 328 "/cpu/D10" "D10"
  U1101 45
-Net 330 "/cpu/D11" "D11"
- U1101 47
+ CPU701 121
+Net 329 "/cpu/D11" "D11"
  CPU701 122
-Net 331 "/cpu/D12" "D12"
+ U1101 47
+Net 330 "/cpu/D12" "D12"
  U1101 48
  CPU701 123
-Net 332 "/cpu/D13" "D13"
- U1101 50
+Net 331 "/cpu/D13" "D13"
  CPU701 124
-Net 333 "/cpu/D14" "D14"
- CPU701 125
+ U1101 50
+Net 332 "/cpu/D14" "D14"
  U1101 51
-Net 334 "/cpu/D15" "D15"
+ CPU701 125
+Net 333 "/cpu/D15" "D15"
  CPU701 126
  U1101 53
 }

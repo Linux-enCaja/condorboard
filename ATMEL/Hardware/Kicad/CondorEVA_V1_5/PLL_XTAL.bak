@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 10 Jan 2012 06:01:42 PM COT
+EESchema Schematic File Version 2  date Thu 19 Jan 2012 04:02:15 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -105,31 +105,9 @@ LIBS:tps60500
 LIBS:SI1563
 LIBS:lt1963
 LIBS:vga
-LIBS:lcd_2x16_led_backlight
 LIBS:my_dev
-LIBS:display-lcd
-LIBS:con-lumberg
 LIBS:n64s830ha
 LIBS:adc08xxx
-LIBS:micro-philips
-LIBS:atmel89cxxxx
-LIBS:atmel-2005
-LIBS:atmel-1
-LIBS:at91sam9261
-LIBS:atmel-eagle
-LIBS:avr-4
-LIBS:avr-3
-LIBS:avr32
-LIBS:avr-2
-LIBS:avr-1
-LIBS:aurel
-LIBS:atmel_prototype_header
-LIBS:attiny24_44_84
-LIBS:attiny13
-LIBS:at90can128
-LIBS:atmega8
-LIBS:TI_MSP430_v16
-LIBS:sht10_11_15
 LIBS:smd-special
 LIBS:cat22c10
 LIBS:xc9572xl
@@ -175,7 +153,6 @@ LIBS:ad8627
 LIBS:Carlolib-dev
 LIBS:vasd1-s5-d5--sip
 LIBS:pasives-connectors
-LIBS:micrel
 LIBS:con-cypressindustries
 LIBS:CondorEVA_V1_5-cache
 EELAYER 25  0
@@ -184,7 +161,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 7 16
 Title "CondorBoard_V1"
-Date "10 jan 2012"
+Date "19 jan 2012"
 Rev "V1"
 Comp "Uniandes"
 Comment1 "Josnelihurt Rodriguez Barajas"
@@ -281,10 +258,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 5200 6700 5100
 $Comp
-L +1.8V #PWR028
+L +1.8V #PWR029
 U 1 1 4E0A3C72
 P 6700 5100
-F 0 "#PWR028" H 6700 5240 20  0001 C CNN
+F 0 "#PWR029" H 6700 5240 20  0001 C CNN
 F 1 "+1.8V" H 6700 5210 30  0000 C CNN
 	1    6700 5100
 	1    0    0    -1  
@@ -321,10 +298,10 @@ $EndComp
 Text HLabel 5050 5200 0    60   UnSpc ~ 0
 VDDPLL
 $Comp
-L GND #PWR029
+L GND #PWR030
 U 1 1 4E0A3C1A
 P 4100 6800
-F 0 "#PWR029" H 4100 6800 30  0001 C CNN
+F 0 "#PWR030" H 4100 6800 30  0001 C CNN
 F 1 "GND" H 4100 6730 30  0001 C CNN
 	1    4100 6800
 	1    0    0    -1  
@@ -389,10 +366,10 @@ XOUT32
 Text HLabel 5450 2550 1    60   Input ~ 0
 XIN32
 $Comp
-L GND #PWR030
+L GND #PWR031
 U 1 1 4DE3AF1A
 P 4600 4500
-F 0 "#PWR030" H 4600 4500 30  0001 C CNN
+F 0 "#PWR031" H 4600 4500 30  0001 C CNN
 F 1 "GND" H 4600 4430 30  0001 C CNN
 	1    4600 4500
 	1    0    0    -1  

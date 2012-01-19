@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 10 Jan 2012 06:01:42 PM COT
+EESchema Schematic File Version 2  date Thu 19 Jan 2012 04:02:15 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -105,31 +105,9 @@ LIBS:tps60500
 LIBS:SI1563
 LIBS:lt1963
 LIBS:vga
-LIBS:lcd_2x16_led_backlight
 LIBS:my_dev
-LIBS:display-lcd
-LIBS:con-lumberg
 LIBS:n64s830ha
 LIBS:adc08xxx
-LIBS:micro-philips
-LIBS:atmel89cxxxx
-LIBS:atmel-2005
-LIBS:atmel-1
-LIBS:at91sam9261
-LIBS:atmel-eagle
-LIBS:avr-4
-LIBS:avr-3
-LIBS:avr32
-LIBS:avr-2
-LIBS:avr-1
-LIBS:aurel
-LIBS:atmel_prototype_header
-LIBS:attiny24_44_84
-LIBS:attiny13
-LIBS:at90can128
-LIBS:atmega8
-LIBS:TI_MSP430_v16
-LIBS:sht10_11_15
 LIBS:smd-special
 LIBS:cat22c10
 LIBS:xc9572xl
@@ -175,7 +153,6 @@ LIBS:ad8627
 LIBS:Carlolib-dev
 LIBS:vasd1-s5-d5--sip
 LIBS:pasives-connectors
-LIBS:micrel
 LIBS:con-cypressindustries
 LIBS:CondorEVA_V1_5-cache
 EELAYER 25  0
@@ -184,7 +161,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 6 16
 Title "CondorBoard_V1"
-Date "10 jan 2012"
+Date "19 jan 2012"
 Rev "V1"
 Comp "Uniandes"
 Comment1 "Josnelihurt Rodriguez Barajas"
@@ -1052,10 +1029,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 8700 1150 8700
 $Comp
-L GND #PWR022
+L GND #PWR023
 U 1 1 4EAC267C
 P 1350 8850
-F 0 "#PWR022" H 1350 8850 30  0001 C CNN
+F 0 "#PWR023" H 1350 8850 30  0001 C CNN
 F 1 "GND" H 1350 8780 30  0001 C CNN
 	1    1350 8850
 	1    0    0    -1  
@@ -1072,10 +1049,10 @@ $EndComp
 Text Label 750  8700 1    60   ~ 0
 PC8
 $Comp
-L GND #PWR023
+L GND #PWR024
 U 1 1 4EAC2593
 P 1000 11150
-F 0 "#PWR023" H 1000 11150 30  0001 C CNN
+F 0 "#PWR024" H 1000 11150 30  0001 C CNN
 F 1 "GND" H 1000 11080 30  0001 C CNN
 	1    1000 11150
 	1    0    0    -1  
@@ -1609,10 +1586,10 @@ $EndComp
 Text Label 6100 10125 2    60   ~ 0
 VDDIOP0
 $Comp
-L +3.3V #PWR024
+L +3.3V #PWR025
 U 1 1 4E0B864D
 P 5625 10075
-F 0 "#PWR024" H 5625 10035 30  0001 C CNN
+F 0 "#PWR025" H 5625 10035 30  0001 C CNN
 F 1 "+3.3V" H 5625 10185 30  0000 C CNN
 	1    5625 10075
 	1    0    0    -1  
@@ -1692,10 +1669,10 @@ F 1 "10uF" V 5425 10200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR025
+L +3.3V #PWR026
 U 1 1 4E0B85C7
 P 4600 9450
-F 0 "#PWR025" H 4600 9410 30  0001 C CNN
+F 0 "#PWR026" H 4600 9410 30  0001 C CNN
 F 1 "+3.3V" H 4600 9560 30  0000 C CNN
 	1    4600 9450
 	1    0    0    -1  
@@ -1710,10 +1687,10 @@ F 1 "0R" V 4600 9825 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L GND #PWR027
 U 1 1 4E0B8582
 P 2650 11125
-F 0 "#PWR026" H 2650 11125 30  0001 C CNN
+F 0 "#PWR027" H 2650 11125 30  0001 C CNN
 F 1 "GND" H 2650 11055 30  0001 C CNN
 	1    2650 11125
 	1    0    0    -1  
@@ -1775,10 +1752,10 @@ F 1 "100nF" V 3375 10225 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +1.8V #PWR027
+L +1.8V #PWR028
 U 1 1 4E0A4A6A
 P 3325 9700
-F 0 "#PWR027" H 3325 9840 20  0001 C CNN
+F 0 "#PWR028" H 3325 9840 20  0001 C CNN
 F 1 "+1.8V" H 3325 9810 30  0000 C CNN
 	1    3325 9700
 	1    0    0    -1  

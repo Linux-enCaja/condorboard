@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 10 Jan 2012 06:19:29 PM COT
+EESchema Schematic File Version 2  date Thu 19 Jan 2012 04:02:23 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -105,31 +105,9 @@ LIBS:tps60500
 LIBS:SI1563
 LIBS:lt1963
 LIBS:vga
-LIBS:lcd_2x16_led_backlight
 LIBS:my_dev
-LIBS:display-lcd
-LIBS:con-lumberg
 LIBS:n64s830ha
 LIBS:adc08xxx
-LIBS:micro-philips
-LIBS:atmel89cxxxx
-LIBS:atmel-2005
-LIBS:atmel-1
-LIBS:at91sam9261
-LIBS:atmel-eagle
-LIBS:avr-4
-LIBS:avr-3
-LIBS:avr32
-LIBS:avr-2
-LIBS:avr-1
-LIBS:aurel
-LIBS:atmel_prototype_header
-LIBS:attiny24_44_84
-LIBS:attiny13
-LIBS:at90can128
-LIBS:atmega8
-LIBS:TI_MSP430_v16
-LIBS:sht10_11_15
 LIBS:smd-special
 LIBS:cat22c10
 LIBS:xc9572xl
@@ -175,7 +153,6 @@ LIBS:ad8627
 LIBS:Carlolib-dev
 LIBS:vasd1-s5-d5--sip
 LIBS:pasives-connectors
-LIBS:micrel
 LIBS:con-cypressindustries
 LIBS:CondorEVA_V1_5-cache
 EELAYER 25  0
@@ -184,7 +161,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 16 16
 Title "CondorBoard_V1"
-Date "10 jan 2012"
+Date "19 jan 2012"
 Rev "V1"
 Comp "Uniandes"
 Comment1 "Josnelihurt Rodriguez Barajas"
