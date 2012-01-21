@@ -1,0 +1,475 @@
+EESchema Schematic File Version 2  date Thu 19 Jan 2012 04:02:23 PM COT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:con-jack
+LIBS:at91sam9
+LIBS:fuse
+LIBS:maxim
+LIBS:vrtc
+LIBS:vddhp
+LIBS:vbus
+LIBS:vbato
+LIBS:vbat
+LIBS:v33sd
+LIBS:v33
+LIBS:v18
+LIBS:usb_minib
+LIBS:usb_micro_ab
+LIBS:usbdf
+LIBS:tzxxx
+LIBS:tps721xx
+LIBS:tm2302n
+LIBS:tm2301n
+LIBS:testpoint
+LIBS:sw_metaldomn
+LIBS:switch
+LIBS:spy0030a
+LIBS:speaker
+LIBS:solderpaste
+LIBS:serial_con
+LIBS:se9016
+LIBS:sdcw2012
+LIBS:scic
+LIBS:rfm12b
+LIBS:rf-24g
+LIBS:pwr_flag
+LIBS:phonejack
+LIBS:p3v56s40etp-g6
+LIBS:npn
+LIBS:mpc17529
+LIBS:microphone
+LIBS:lt3925edcb
+LIBS:kb3436
+LIBS:jz4720_186p
+LIBS:inductorp
+LIBS:inductor
+LIBS:hy27ug088g5m
+LIBS:header_40
+LIBS:header_20x2
+LIBS:header_4x2
+LIBS:header_4
+LIBS:header_3
+LIBS:header_2
+LIBS:header
+LIBS:hd
+LIBS:fpccon24
+LIBS:eup3406
+LIBS:crystal
+LIBS:cpolarized
+LIBS:con4p
+LIBS:col_logo
+LIBS:cc_logo
+LIBS:boot_switch
+LIBS:bl8555-33pra
+LIBS:bl8509-263dnrm
+LIBS:bl8506-30nrm
+LIBS:bat_con
+LIBS:atmega168v
+LIBS:ad8605-6-8
+LIBS:devices_mod
+LIBS:ethernet_phy
+LIBS:mt48lc16m16a2
+LIBS:at45db321d
+LIBS:farnell
+LIBS:AT24C
+LIBS:xilinx-xc3sxxxe_vq100
+LIBS:axis
+LIBS:tps60500
+LIBS:SI1563
+LIBS:lt1963
+LIBS:vga
+LIBS:my_dev
+LIBS:n64s830ha
+LIBS:adc08xxx
+LIBS:smd-special
+LIBS:cat22c10
+LIBS:xc9572xl
+LIBS:xc3s
+LIBS:at91sam9g20b-cu
+LIBS:logos
+LIBS:Dispositivos_I2C
+LIBS:mmdt3904
+LIBS:Transil_diode
+LIBS:microsd
+LIBS:usba-plug
+LIBS:usbconn
+LIBS:transistor-npn
+LIBS:rclamp0502b
+LIBS:EEPROM
+LIBS:micron_ddr_512Mb
+LIBS:opendous
+LIBS:ipc-7351-diode
+LIBS:gl850g
+LIBS:110VAC
+LIBS:VREF
+LIBS:PWR
+LIBS:ipc-7351-transistor
+LIBS:usb_a
+LIBS:m25p32
+LIBS:srf2012
+LIBS:IOUT
+LIBS:ref-packages
+LIBS:switch-misc
+LIBS:Zilog-ZNEO-v1_0
+LIBS:mcp130
+LIBS:r_pack2
+LIBS:sdmmc
+LIBS:w_analog
+LIBS:fsusb20
+LIBS:iMX23
+LIBS:PROpendous-cache
+LIBS:Reset
+LIBS:ABM8G
+LIBS:adm3101e
+LIBS:ad7699
+LIBS:ad8627
+LIBS:Carlolib-dev
+LIBS:vasd1-s5-d5--sip
+LIBS:pasives-connectors
+LIBS:con-cypressindustries
+LIBS:CondorEVA_V1_5-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 3 16
+Title ""
+Date "19 jan 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7850 2200 8000 2200
+Wire Wire Line
+	8950 2100 8800 2100
+Wire Wire Line
+	7850 1800 7850 2000
+Wire Wire Line
+	7850 2000 8000 2000
+Wire Wire Line
+	5400 2700 5400 2650
+Wire Wire Line
+	5400 2650 5150 2650
+Wire Wire Line
+	8800 2800 8950 2800
+Wire Wire Line
+	8800 2600 8950 2600
+Wire Wire Line
+	8800 2400 8950 2400
+Wire Wire Line
+	6450 2250 6600 2250
+Wire Wire Line
+	2250 2850 2550 2850
+Wire Bus Line
+	2250 2600 2550 2600
+Wire Wire Line
+	4350 2350 4200 2350
+Wire Wire Line
+	6600 2050 6450 2050
+Wire Wire Line
+	6450 2050 6450 1450
+Wire Wire Line
+	4350 2150 4200 2150
+Wire Wire Line
+	4200 2150 4200 1550
+Wire Wire Line
+	4350 2250 4200 2250
+Wire Wire Line
+	4350 2450 4200 2450
+Wire Wire Line
+	4350 2550 4200 2550
+Wire Wire Line
+	4350 2650 4200 2650
+Wire Wire Line
+	5300 2550 5150 2550
+Wire Wire Line
+	5300 2450 5150 2450
+Wire Wire Line
+	5300 2350 5150 2350
+Wire Wire Line
+	5300 2150 5150 2150
+Wire Wire Line
+	5300 2250 5150 2250
+Wire Wire Line
+	7550 2450 7400 2450
+Wire Wire Line
+	7550 2350 7400 2350
+Wire Wire Line
+	7550 2550 7400 2550
+Wire Wire Line
+	7550 2650 7400 2650
+Wire Wire Line
+	7550 2750 7400 2750
+Wire Wire Line
+	7550 2150 7400 2150
+Wire Wire Line
+	6600 2150 6450 2150
+Wire Wire Line
+	7550 2050 7400 2050
+Wire Wire Line
+	6600 2750 6450 2750
+Wire Wire Line
+	6600 2650 6450 2650
+Wire Wire Line
+	6600 2850 6450 2850
+Wire Wire Line
+	6600 2550 6450 2550
+Wire Wire Line
+	6600 2350 6450 2350
+Wire Wire Line
+	6600 2450 6450 2450
+Wire Bus Line
+	2250 2450 2550 2450
+Wire Wire Line
+	2250 2750 2550 2750
+Wire Wire Line
+	7550 2250 7400 2250
+Wire Wire Line
+	8800 2300 8950 2300
+Wire Wire Line
+	8800 2500 8950 2500
+Wire Wire Line
+	8800 2700 8950 2700
+Wire Wire Line
+	8800 2000 8950 2000
+Wire Wire Line
+	7850 2900 8000 2900
+Wire Wire Line
+	7850 2700 8000 2700
+Wire Wire Line
+	7850 2500 8000 2500
+Wire Wire Line
+	7850 2300 8000 2300
+Wire Wire Line
+	7850 2400 8000 2400
+Wire Wire Line
+	7850 2600 8000 2600
+Wire Wire Line
+	7850 2800 8000 2800
+Wire Wire Line
+	8950 2200 8800 2200
+Wire Wire Line
+	8800 2900 9100 2900
+Wire Wire Line
+	9100 2900 9100 3000
+Wire Wire Line
+	8000 2100 7850 2100
+Wire Wire Line
+	7400 2850 7550 2850
+$Comp
+L CONN_9X2 P304
+U 1 1 4EAC2152
+P 7000 2400
+F 0 "P304" H 7000 2850 60  0000 C CNN
+F 1 "CONN_9X2" V 7000 2400 50  0000 C CNN
+	1    7000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_10X2 P404
+U 1 1 4EAB0E6B
+P 8400 2450
+F 0 "P404" H 8400 3000 60  0000 C CNN
+F 1 "CONN_10X2" V 8400 2350 50  0000 C CNN
+	1    8400 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_6X2 P403
+U 1 1 4EAB0950
+P 4750 2400
+F 0 "P403" H 4750 2750 60  0000 C CNN
+F 1 "CONN_6X2" V 4750 2400 60  0000 C CNN
+	1    4750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR04
+U 1 1 4EAB0829
+P 7850 1800
+F 0 "#PWR04" H 7850 1760 30  0001 C CNN
+F 1 "+3.3V" H 7850 1910 30  0000 C CNN
+	1    7850 1800
+	1    0    0    -1  
+$EndComp
+Text Label 2550 2600 0    60   ~ 0
+PC[0..31]
+Text Label 2550 2450 0    60   ~ 0
+PB[0..31]
+Text Label 7850 2200 0    60   ~ 0
+AVDD
+Text Label 8950 2000 0    60   ~ 0
+AVREF
+Text Label 2550 2750 0    60   ~ 0
+AVREF
+Text Label 2550 2850 0    60   ~ 0
+AVDD
+Text Label 7400 2250 0    60   ~ 0
+PC20
+Text Label 6450 2850 0    60   ~ 0
+PC31
+Text Label 7400 2750 0    60   ~ 0
+PC30
+Text Label 6450 2750 0    60   ~ 0
+PC29
+Text Label 7400 2650 0    60   ~ 0
+PC28
+Text Label 6450 2650 0    60   ~ 0
+PC27
+Text Label 7400 2550 0    60   ~ 0
+PC26
+Text Label 6450 2550 0    60   ~ 0
+PC25
+Text Label 7400 2450 0    60   ~ 0
+PC24
+Text Label 6450 2450 0    60   ~ 0
+PC23
+Text Label 7400 2350 0    60   ~ 0
+PC22
+Text Label 6450 2350 0    60   ~ 0
+PC21
+Text Label 6450 2250 0    60   ~ 0
+PC19
+Text Label 7400 2150 0    60   ~ 0
+PC18
+Text Label 6450 2150 0    60   ~ 0
+PC17
+Text Label 7400 2050 0    60   ~ 0
+PC16
+Text Label 7850 2100 0    60   ~ 0
+PC1
+Text Label 8950 2100 0    60   ~ 0
+PC0
+Text Label 7850 2900 0    60   ~ 0
+PB31
+Text Label 8950 2800 0    60   ~ 0
+PB30
+Text Label 7850 2800 0    60   ~ 0
+PB29
+Text Label 8950 2700 0    60   ~ 0
+PB28
+Text Label 7850 2700 0    60   ~ 0
+PB27
+Text Label 8950 2600 0    60   ~ 0
+PB26
+Text Label 7850 2600 0    60   ~ 0
+PB25
+Text Label 8950 2500 0    60   ~ 0
+PB24
+Text Label 7850 2500 0    60   ~ 0
+PB23
+Text Label 8950 2400 0    60   ~ 0
+PB22
+Text Label 7850 2400 0    60   ~ 0
+PB21
+Text Label 8950 2300 0    60   ~ 0
+PB20
+Text Label 4200 2650 0    60   ~ 0
+PB19
+Text Label 5300 2550 0    60   ~ 0
+PB18
+Text Label 4200 2550 0    60   ~ 0
+PB17
+Text Label 5300 2450 0    60   ~ 0
+PB16
+Text Label 7850 2300 0    60   ~ 0
+PB11
+Text Label 8950 2200 0    60   ~ 0
+PB10
+Text Label 4200 2450 0    60   ~ 0
+PB9
+Text Label 5300 2350 0    60   ~ 0
+PB8
+Text Label 4200 2350 0    60   ~ 0
+PB3
+Text Label 5300 2250 0    60   ~ 0
+PB2
+Text Label 4200 2250 0    60   ~ 0
+PB1
+Text Label 5300 2150 0    60   ~ 0
+PB0
+$Comp
+L GND #PWR05
+U 1 1 4EA6E694
+P 7550 2850
+F 0 "#PWR05" H 7550 2850 30  0001 C CNN
+F 1 "GND" H 7550 2780 30  0001 C CNN
+	1    7550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR06
+U 1 1 4EA6E693
+P 6450 1450
+F 0 "#PWR06" H 6450 1410 30  0001 C CNN
+F 1 "+3.3V" H 6450 1560 30  0000 C CNN
+	1    6450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 4EA6E68D
+P 9100 3000
+F 0 "#PWR07" H 9100 3000 30  0001 C CNN
+F 1 "GND" H 9100 2930 30  0001 C CNN
+	1    9100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 4EA6E684
+P 5400 2700
+F 0 "#PWR08" H 5400 2700 30  0001 C CNN
+F 1 "GND" H 5400 2630 30  0001 C CNN
+	1    5400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR09
+U 1 1 4EA6E680
+P 4200 1550
+F 0 "#PWR09" H 4200 1510 30  0001 C CNN
+F 1 "+3.3V" H 4200 1660 30  0000 C CNN
+	1    4200 1550
+	1    0    0    -1  
+$EndComp
+Text HLabel 2250 2850 0    60   Input ~ 0
+AVDD
+Text HLabel 2250 2750 0    60   Input ~ 0
+AVREF
+Text HLabel 2250 2600 0    60   Input ~ 0
+PC[0..31]
+Text HLabel 2250 2450 0    60   Input ~ 0
+PB[0..31]
+$EndSCHEMATC

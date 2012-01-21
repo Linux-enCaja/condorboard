@@ -1,0 +1,581 @@
+eeschema (2011-04-29 BZR 2986)-stable  >> Creation date: Mon 27 Jun 2011 08:57:26 PM COT
+
+#Cmp ( order = Reference )
+| ??1        F12X2---DW28; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13783-5-ND; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-27570-ND
+| C1         100nF       
+| C2         100nF       
+| C3         100nF       
+| C4         100nF       
+| C5         100nF       
+| C6         33pF        
+| C7         33pF        
+| C8         10uF        
+| C9         10uF        
+| C10        100nF       
+| C11        100nF       
+| C12        100nF       
+| C13        100nF       
+| C14        100nF       
+| C15        100nF       
+| C16        10uF        
+| C17        10uF        
+| C18        10uF        
+| C19        100nF       
+| C20        100nF       
+| C21        100nF       
+| C22        33pF        
+| C23        15pF        
+| C24        15pF        
+| C25        47pF        
+| C26        47pF        
+| C27        10pF        
+| C28        10pF        
+| C29        10pF        
+| C30        10pF        
+| C31        100nF       
+| C32        100nF       
+| C33        100nF       
+| C34        100nF       
+| C35        100nF       
+| C36        100nF       
+| C37        100nF       
+| C38        100nF       
+| C39        100nF       
+| C40        100nF       
+| C41        100nF       
+| C42        100nF       
+| C43        100nF       
+| C44        100nF       
+| C45        100nF       
+| C46        100nF       
+| C47        100nF       
+| C48        330uF       
+| C49        15pF        
+| C50        10uF        
+| C51        10uF        
+| C52        1uF         
+| C53        1uF         
+| C54        10uF        
+| C55        10uF        
+| C56        100nF       
+| C57        100nF       
+| C58        100nF       
+| C59        100nF       
+| C60        100nF       
+| C61        100nF       
+| C62        100nF       
+| C63        100nF       
+| C64        100nF       
+| C65        100nF       
+| C66        100nF       
+| C67        100nF       
+| C68        100nF       
+| C69        100nF       
+| C70        100nF       
+| C71        100nF       
+| C72        4.7nF       
+| C73        4.7nF       
+| C74        100nF       
+| C75        4.7uF       
+| C76        4.7uF       
+| C77        470nF       
+| C78        470nF       
+| C79        47pF        
+| C80        47pF        
+| C81        100nF       
+| C82        10uF        
+| C83        330uF       
+| C84        10uF        
+| C85        10uF        
+| C86        1uF         
+| C87        1uF         
+| C88        100nF       
+| C89        100nF       
+| C90        100nF       
+| CN_AU1     CONN AUDIO JACK 3.5MM STEREO 
+| CN_AU2     CONN AUDIO JACK 3.5MM STEREO 
+| CN_AU3     CONN AUDIO JACK 3.5MM STEREO 
+| CPU1       AT91SAM9XE  
+| D1         5V          
+| D2         PWRLED      
+| D3         LED         
+| D4         LED         
+| D5         LED         
+| D6         LED         
+| D7         LED         
+| D8         LED         
+| D9         LED         
+| D10        LED         
+| D11        LED         
+| D12        LED         
+| D13        LED         
+| D14        LED         
+| D15        LED         
+| D16        LED         
+| F1         FUSEFAS     
+| IC1        MAX3223CAP  ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13090-1-ND
+| IC2        XC3S250E-VQ100; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1525-ND
+| IC3        PCF8574P    ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13105-1-ND
+| IC4        PCF8574P    ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13105-1-ND
+| IC5        ATMEGA128-A 
+| J1         CONN_3      
+| J2         CONN_3      
+| J3         DB9         
+| J4         DB9         
+| J5         RJ45-TRANSFO; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| J6         USB_2       ; VCC         ; D+          ; D-          ; GND         
+| J7         USB         
+| J8         JACK-PLUG0  
+| J9         VGA         
+| K1         CONN_3      
+| K2         JS_TCK      
+| K3         JS_TDO      
+| K4         JS_TDI      
+| K5         JS_TMS      
+| L1         HZ0805C202R-10; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| L2         HZ0805C202R-10; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| L3         HZ0805C202R-10; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| L4         HZ0805C202R-10; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| L5         HZ0805C202R-10; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| L6         HZ0805C202R-10
+| L7         HZ0805C202R-10
+| L8         HZ0805C202R-10
+| L9         HZ0805C202R-10
+| L10        INDUCTOR    
+| L11        INDUCTOR    
+| L12        INDUCTOR    
+| LCD1       LCD_2X16_SIL
+| OSC1       FXO-HC73    ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=631-1060-1-ND
+| OSC2       SOCKET      
+| P1         CONN_10X2   
+| P2         CONN_2X2    
+| P3         CONN_5X2    
+| P4         CONN_2      
+| P5         CONN_2      
+| P6         CONN_5X2    
+| P7         JTAG_FPGA   
+| P8         CONN_6      
+| P9         CONN_6      
+| P10        BNC         
+| P11        CONN_4X2    
+| P12        CONN_20X2   
+| P13        CONN_5X2    ; http://www.sparkfun.com/products/8683
+| PB1        CONN_20X2   
+| PS2_1      PS2         
+| Q1         IRLML2402   ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=IRLML2402PBFCT-ND
+| R1         1K          
+| R2         10K         
+| R3         R           
+| R4         100K        
+| R5         100K        
+| R6         10K         
+| R7         22.1K       
+| R8         49.9%1      ; 1%          
+| R9         49.9%1      ; 1%          
+| R10        49.9%1      ; 1%          
+| R11        49.9%1      ; 1%          
+| R12        10k         
+| R13        2K          
+| R14        2K          
+| R15        1.5k        
+| R16        39R         
+| R17        39R         
+| R18        15k         
+| R19        15k         
+| R20        15k         
+| R21        22k         
+| R22        0R          
+| R23        39R         
+| R24        39R         
+| R25        0R          
+| R26        0R          
+| R27        0R          
+| R28        470K        
+| R29        0R          
+| R30        470K        
+| R31        0R          
+| R32        0R          
+| R33        0R          
+| R34        2.7K        
+| R35        2.7K        
+| R36        100K        
+| R37        10K         
+| R38        10K         
+| R39        R           
+| R40        R           
+| R41        0R          
+| R42        470K        
+| R43        100R        
+| R44        470k        
+| R45        10K         
+| R46        10K         
+| R47        10K         
+| R48        10K         
+| R49        1K          
+| R50        100R        
+| R51        100R        
+| R52        100R        
+| R53        100R        
+| R54        1K          
+| R55        0R          
+| R56        3.3K        
+| R57        3.3K        
+| R58        220R        
+| R67        270R        
+| R68        270R        
+| R69        270R        
+| R70        270R        
+| R71        10K         
+| R72        10K         
+| R73        10K         
+| R74        10K         
+| R75        270R        
+| R76        270R        
+| R77        270R        
+| R78        82.5R       
+| R79        82.5R       
+| R80        470R        
+| R81        470R        
+| R82        R           
+| R83        R           
+| R84        R           
+| R85        R           
+| R86        10K         
+| R87        10K         
+| R88        100R        
+| R89        1K          
+| R90        1K          
+| R91        1K          
+| R92        1K          
+| R93        10K         
+| R94        10K         
+| R95        10K         
+| RP1        RP4_100K    ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RAVF164DJT100KCT-ND
+| RP2        RP8_10K     
+| RP3        RP8_330R    
+| RP4        RP8_75      
+| SW1        SW_PUSH     
+| SW2        SW_PUSH     
+| SW3        SW_PUSH     
+| SW4        SW_PUSH     
+| SW5        SW          
+| U1         PAD2        
+| U2         LXT972A_    ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1008-1042-ND
+| U3         PAD2        
+| U4         AT45DB321D  ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AT45DB321D-SU-ND
+| U5         AT24C01BN   
+| U6         SI1563      
+| U7         LT1963      ; A           
+| U8         TPS60500    
+| U9         PAD2        
+| U10        PAD2        
+| U11        PAD2        
+| U12        MT48LC16M16A2
+| U13        MT48LC16M16A2
+| U14        N64S830HA   
+| U15        ADC08060    
+| U16        DS1302      ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=DS1302Z%2BCT-ND
+| U17        TLV320AIC23 ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-11625-5-ND
+| U18        TSOP348xx   ; http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=US&KeyWords=TSOP348&x=0&y=0
+| U19        LT1963      ; A           
+| U20        AP1122      ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AP1122EGDITR-ND
+| U21        ISL21080    ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ISL21080CIH315Z-TKCT-ND
+| X1         25MHz       
+| X2         18.432MHz   
+| X3         32.768KHz   
+| X4         SDBMF       
+| X6         CRYSTAL     
+| X7         CRYSTAL     
+| X8         CRYSTAL     
+#End Cmp
+
+#Cmp ( order = Value )
+| 0R           R22       
+| 0R           R25       
+| 0R           R26       
+| 0R           R27       
+| 0R           R29       
+| 0R           R31       
+| 0R           R32       
+| 0R           R33       
+| 0R           R41       
+| 0R           R55       
+| 1.5k         R15       
+| 100K         R4        
+| 100K         R5        
+| 100K         R36       
+| 100nF        C1        
+| 100nF        C2        
+| 100nF        C3        
+| 100nF        C4        
+| 100nF        C5        
+| 100nF        C10       
+| 100nF        C11       
+| 100nF        C12       
+| 100nF        C13       
+| 100nF        C14       
+| 100nF        C15       
+| 100nF        C19       
+| 100nF        C20       
+| 100nF        C21       
+| 100nF        C31       
+| 100nF        C32       
+| 100nF        C33       
+| 100nF        C34       
+| 100nF        C35       
+| 100nF        C36       
+| 100nF        C37       
+| 100nF        C38       
+| 100nF        C39       
+| 100nF        C40       
+| 100nF        C41       
+| 100nF        C42       
+| 100nF        C43       
+| 100nF        C44       
+| 100nF        C45       
+| 100nF        C46       
+| 100nF        C47       
+| 100nF        C56       
+| 100nF        C57       
+| 100nF        C58       
+| 100nF        C59       
+| 100nF        C60       
+| 100nF        C61       
+| 100nF        C62       
+| 100nF        C63       
+| 100nF        C64       
+| 100nF        C65       
+| 100nF        C66       
+| 100nF        C67       
+| 100nF        C68       
+| 100nF        C69       
+| 100nF        C70       
+| 100nF        C71       
+| 100nF        C74       
+| 100nF        C81       
+| 100nF        C88       
+| 100nF        C89       
+| 100nF        C90       
+| 100R         R43       
+| 100R         R50       
+| 100R         R51       
+| 100R         R52       
+| 100R         R53       
+| 100R         R88       
+| 10K          R2        
+| 10K          R6        
+| 10k          R12       
+| 10K          R37       
+| 10K          R38       
+| 10K          R45       
+| 10K          R46       
+| 10K          R47       
+| 10K          R48       
+| 10K          R71       
+| 10K          R72       
+| 10K          R73       
+| 10K          R74       
+| 10K          R86       
+| 10K          R87       
+| 10K          R93       
+| 10K          R94       
+| 10K          R95       
+| 10pF         C27       
+| 10pF         C28       
+| 10pF         C29       
+| 10pF         C30       
+| 10uF         C8        
+| 10uF         C9        
+| 10uF         C16       
+| 10uF         C17       
+| 10uF         C18       
+| 10uF         C50       
+| 10uF         C51       
+| 10uF         C54       
+| 10uF         C55       
+| 10uF         C82       
+| 10uF         C84       
+| 10uF         C85       
+| 15k          R18       
+| 15k          R19       
+| 15k          R20       
+| 15pF         C23       
+| 15pF         C24       
+| 15pF         C49       
+| 18.432MHz    X2        
+| 1K           R1        
+| 1K           R49       
+| 1K           R54       
+| 1K           R89       
+| 1K           R90       
+| 1K           R91       
+| 1K           R92       
+| 1uF          C52       
+| 1uF          C53       
+| 1uF          C86       
+| 1uF          C87       
+| 2.7K         R34       
+| 2.7K         R35       
+| 22.1K        R7        
+| 220R         R58       
+| 22k          R21       
+| 25MHz        X1        
+| 270R         R67       
+| 270R         R68       
+| 270R         R69       
+| 270R         R70       
+| 270R         R75       
+| 270R         R76       
+| 270R         R77       
+| 2K           R13       
+| 2K           R14       
+| 3.3K         R56       
+| 3.3K         R57       
+| 32.768KHz    X3        
+| 330uF        C48       
+| 330uF        C83       
+| 33pF         C6        
+| 33pF         C7        
+| 33pF         C22       
+| 39R          R16       
+| 39R          R17       
+| 39R          R23       
+| 39R          R24       
+| 4.7nF        C72       
+| 4.7nF        C73       
+| 4.7uF        C75       
+| 4.7uF        C76       
+| 470K         R28       
+| 470K         R30       
+| 470K         R42       
+| 470k         R44       
+| 470nF        C77       
+| 470nF        C78       
+| 470R         R80       
+| 470R         R81       
+| 47pF         C25       
+| 47pF         C26       
+| 47pF         C79       
+| 47pF         C80       
+| 49.9%1       R8        ; 1%          
+| 49.9%1       R9        ; 1%          
+| 49.9%1       R10       ; 1%          
+| 49.9%1       R11       ; 1%          
+| 5V           D1        
+| 82.5R        R78       
+| 82.5R        R79       
+| ADC08060     U15       
+| AP1122       U20       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AP1122EGDITR-ND
+| AT24C01BN    U5        
+| AT45DB321D   U4        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AT45DB321D-SU-ND
+| AT91SAM9XE   CPU1      
+| ATMEGA128-A  IC5       
+| BNC          P10       
+| CONN AUDIO JACK 3.5MM STEREO  CN_AU1    
+| CONN AUDIO JACK 3.5MM STEREO  CN_AU2    
+| CONN AUDIO JACK 3.5MM STEREO  CN_AU3    
+| CONN_10X2    P1        
+| CONN_2       P4        
+| CONN_2       P5        
+| CONN_20X2    P12       
+| CONN_20X2    PB1       
+| CONN_2X2     P2        
+| CONN_3       J1        
+| CONN_3       J2        
+| CONN_3       K1        
+| CONN_4X2     P11       
+| CONN_5X2     P3        
+| CONN_5X2     P6        
+| CONN_5X2     P13       ; http://www.sparkfun.com/products/8683
+| CONN_6       P8        
+| CONN_6       P9        
+| CRYSTAL      X6        
+| CRYSTAL      X7        
+| CRYSTAL      X8        
+| DB9          J3        
+| DB9          J4        
+| DS1302       U16       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=DS1302Z%2BCT-ND
+| F12X2---DW28 ??1       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13783-5-ND; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-27570-ND
+| FUSEFAS      F1        
+| FXO-HC73     OSC1      ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=631-1060-1-ND
+| HZ0805C202R-10 L1        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| HZ0805C202R-10 L2        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| HZ0805C202R-10 L3        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| HZ0805C202R-10 L4        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| HZ0805C202R-10 L5        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| HZ0805C202R-10 L6        
+| HZ0805C202R-10 L7        
+| HZ0805C202R-10 L8        
+| HZ0805C202R-10 L9        
+| INDUCTOR     L10       
+| INDUCTOR     L11       
+| INDUCTOR     L12       
+| IRLML2402    Q1        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=IRLML2402PBFCT-ND
+| ISL21080     U21       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ISL21080CIH315Z-TKCT-ND
+| JACK-PLUG0   J8        
+| JS_TCK       K2        
+| JS_TDI       K4        
+| JS_TDO       K3        
+| JS_TMS       K5        
+| JTAG_FPGA    P7        
+| LCD_2X16_SIL LCD1      
+| LED          D3        
+| LED          D4        
+| LED          D5        
+| LED          D6        
+| LED          D7        
+| LED          D8        
+| LED          D9        
+| LED          D10       
+| LED          D11       
+| LED          D12       
+| LED          D13       
+| LED          D14       
+| LED          D15       
+| LED          D16       
+| LT1963       U7        ; A           
+| LT1963       U19       ; A           
+| LXT972A_     U2        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1008-1042-ND
+| MAX3223CAP   IC1       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13090-1-ND
+| MT48LC16M16A2 U12       
+| MT48LC16M16A2 U13       
+| N64S830HA    U14       
+| PAD2         U1        
+| PAD2         U3        
+| PAD2         U9        
+| PAD2         U10       
+| PAD2         U11       
+| PCF8574P     IC3       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13105-1-ND
+| PCF8574P     IC4       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13105-1-ND
+| PS2          PS2_1     
+| PWRLED       D2        
+| R            R3        
+| R            R39       
+| R            R40       
+| R            R82       
+| R            R83       
+| R            R84       
+| R            R85       
+| RJ45-TRANSFO J5        ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=240-2396-1-ND
+| RP4_100K     RP1       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RAVF164DJT100KCT-ND
+| RP8_10K      RP2       
+| RP8_330R     RP3       
+| RP8_75       RP4       
+| SDBMF        X4        
+| SI1563       U6        
+| SOCKET       OSC2      
+| SW           SW5       
+| SW_PUSH      SW1       
+| SW_PUSH      SW2       
+| SW_PUSH      SW3       
+| SW_PUSH      SW4       
+| TLV320AIC23  U17       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-11625-5-ND
+| TPS60500     U8        
+| TSOP348xx    U18       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&site=US&KeyWords=TSOP348&x=0&y=0
+| USB          J7        
+| USB_2        J6        ; VCC         ; D+          ; D-          ; GND         
+| VGA          J9        
+| XC3S250E-VQ100 IC2       ; http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=122-1525-ND
+#End Cmp
+
+#End List
