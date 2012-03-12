@@ -1,4 +1,4 @@
-update=Tue 17 Jan 2012 10:58:59 AM COT
+update=Mon 12 Mar 2012 07:44:19 AM COT
 version=1
 last_client=eeschema
 [general]
@@ -63,7 +63,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../../../Software/lib;../../../Software/kicad_components;../../../Software/converted;../../../Software/components
+LibDir=../../Software/kicad_components;../../Software/kicad_models;../../Software/modules;../../Software/components;../../Software/lib;../CondorEVA_V1_5
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15

@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Thu 19 Jan 2012 04:02:23 PM COT
+EESchema-LIBRARY Version 2.3  Date: Mon 12 Mar 2012 07:44:33 AM COT
 #encoding utf-8
 #
 # +1.2V
@@ -627,7 +627,7 @@ ENDDEF
 #
 # JACK-PLUG0
 #
-DEF JACK-PLUG0 J 0 40 N N 1 L N
+DEF JACK-PLUG0 J 0 40 Y Y 1 L N
 F0 "J" -300 200 50 H V L BNN
 F1 "JACK-PLUG0" -300 -200 50 H V L BNN
 F2 "con-jack-SPC4077" 0 150 50 H I C CNN
