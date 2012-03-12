@@ -1,0 +1,119 @@
+Signed-off-by: Reinhard Meyer <u-boot <at> emk-elektronik.de>
+---
+ board/atmel/at91sam9260ek/at91sam9260ek.c |   33 +++++++++++++++++++++
+ include/configs/at91sam9260ek.h           |   45 ++++++++++++++++++----------
+ 2 files changed, 62 insertions(+), 16 deletions(-)
+
+diff --git a/board/atmel/at91sam9260ek/at91sam9260ek.c b/board/atmel/at91sam9260ek/at91sam9260ek.c
+index 682b922..784632e 100644
+--- a/board/atmel/at91sam9260ek/at91sam9260ek.c
++++ b/board/atmel/at91sam9260ek/at91sam9260ek.c
+@@ -23,6 +23,7 @@
+  */
+
+ #include <common.h>
++#include <mmc.h>
+ #include <asm/io.h>
+ #include <asm/arch/at91sam9260_matrix.h>
+ #include <asm/arch/at91sam9_smc.h>
+@@ -143,6 +144,38 @@ static void at91sam9260ek_macb_hw_init(void)
+ }
+ #endif
+
++#ifdef CONFIG_GENERIC_ATMEL_MCI
++/* this is a weak define that we are overriding */
++int board_mmc_init(bd_t *bd)
++{
++	struct at91_pmc *pmc = (struct at91_pmc *)ATMEL_BASE_PMC;
++
++	/* Enable MCI clock */
++	writel(1 << ATMEL_ID_MCI, &pmc->pcer);
++
++	/* Initialize MCI hardware */
++	at91_mci_hw_init();
++
++	/* This calls the atmel_mmc_init in gen_atmel_mci.c */
++	return atmel_mci_init((void *)ATMEL_BASE_MCI);
++}
++
++/* this is a weak define that we are overriding */
++int board_mmc_getcd(u8 *cd, struct mmc *mmc)
++{
++	/*
++	 * the only currently existing use of this function
++	 * (fsl_esdhc.c) suggests this function must return
++	 * *cs = TRUE if a card is NOT detected -> in most
++	 * cases the value of the pin when the detect switch
++	 * closes to GND
++	 */
++	*cd = at91_get_gpio_value(CONFIG_SYS_MMC_CD_PIN) ? 1 : 0;
++	return 0;
++}
++
++#endif
++
+ int board_early_init_f(void)
+ {
+ 	struct at91_pmc *pmc = (struct at91_pmc *)ATMEL_BASE_PMC;
+diff --git a/include/configs/at91sam9260ek.h b/include/configs/at91sam9260ek.h
+index 88578c6..f12e83a 100644
+--- a/include/configs/at91sam9260ek.h
++++ b/include/configs/at91sam9260ek.h
+@@ -75,6 +75,14 @@
+ #define CONFIG_BAUDRATE			115200
+ #define CONFIG_SYS_BAUDRATE_TABLE	{115200 , 19200, 38400, 57600, 9600 }
+
++/* SD/MMC card */
++#define CONFIG_MMC
++#define CONFIG_GENERIC_MMC
++#define CONFIG_GENERIC_ATMEL_MCI
++#define CONFIG_SYS_MMC_CD_PIN		AT91_PIN_PC9
++#define CONFIG_CMD_MMC
++#define CONFIG_ATMEL_MCI_PORTB		/* use port B on those boards */
++
+ /* LED */
+ #define CONFIG_AT91_LED
+ #define	CONFIG_RED_LED		AT91_PIN_PA9	/* this is the power led */
+@@ -127,21 +135,26 @@
+ 	(ATMEL_BASE_SRAM1 + 0x1000 - GENERATED_GBL_DATA_SIZE)
+ #endif
+
+-/* DataFlash */
+-#define CONFIG_ATMEL_DATAFLASH_SPI
+-#define CONFIG_HAS_DATAFLASH		1
+-#define CONFIG_SYS_SPI_WRITE_TOUT		(5*CONFIG_SYS_HZ)
+-#define CONFIG_SYS_MAX_DATAFLASH_BANKS		2
+-#define CONFIG_SYS_DATAFLASH_LOGIC_ADDR_CS0	0xC0000000	/* CS0 */
+-#define CONFIG_SYS_DATAFLASH_LOGIC_ADDR_CS1	0xD0000000	/* CS1 */
+-#define AT91_SPI_CLK			15000000
+-
+-#ifdef CONFIG_AT91SAM9G20EK
+-#define DATAFLASH_TCSS			(0x22 << 16)
+-#else
+-#define DATAFLASH_TCSS			(0x1a << 16)
+-#endif
+-#define DATAFLASH_TCHS			(0x1 << 24)
++/*
++ * DataFlash
++ * cannot coexist with MMC due to shared pins.
++ */
++#ifndef CONFIG_MMC
++# define CONFIG_ATMEL_DATAFLASH_SPI
++# define CONFIG_HAS_DATAFLASH		1
++# define CONFIG_SYS_SPI_WRITE_TOUT		(5*CONFIG_SYS_HZ)
++# define CONFIG_SYS_MAX_DATAFLASH_BANKS		2
++# define CONFIG_SYS_DATAFLASH_LOGIC_ADDR_CS0	0xC0000000	/* CS0 */
++# define CONFIG_SYS_DATAFLASH_LOGIC_ADDR_CS1	0xD0000000	/* CS1 */
++# define AT91_SPI_CLK			15000000
++
++# ifdef CONFIG_AT91SAM9G20EK
++#  define DATAFLASH_TCSS			(0x22 << 16)
++# else
++#  define DATAFLASH_TCSS			(0x1a << 16)
++# endif
++# define DATAFLASH_TCHS			(0x1 << 24)
++#endif /* ifndef CONFIG_MMC */
+
+ /* NAND flash */
+ #ifdef CONFIG_CMD_NAND
+--
